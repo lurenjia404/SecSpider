@@ -17,6 +17,12 @@ async function loadData(){
     render();
 }
 
+function getSeverityClass(s){
+    if(s.includes("高危")) return "sev-high";
+    if(s.includes("中危")) return "sev-medium";
+    return "sev-low";
+}
+
 function render(){
     const start = (page -1)*PAGE_SIZE;
     const end = start + PAGE_SIZE;
@@ -27,9 +33,14 @@ function render(){
     pageItems.forEach(it=>{
         const div = document.createElement("div");
         div.className = "item";
+        const cls = getSeverityClass(it.severity);
         div.innerHTML = `
             <div class="item-title"><a href="${it.link}" target="_blank">${escapeHtml(it.title)}</a></div>
-            <div class="item-meta">来源：${escapeHtml(it.source)} | ${escapeHtml(it.time)}</div>
+            <div class="item-meta">
+                <span class="item-severity ${cls}">${escapeHtml(it.severity)}</span>
+                来源：${escapeHtml(it.source)} | ${escapeHtml(it.time)}
+                ${it.cve ? " | CVE："+escapeHtml(it.cve) : ""}
+            </div>
             <div class="item-summary">${escapeHtml(it.summary.substring(0,200))}...</div>
         `;
         listEl.appendChild(div);
@@ -56,6 +67,7 @@ function doSearch(){
             x.title.toLowerCase().includes(kw)
             || x.summary.toLowerCase().includes(kw)
             || x.cve.toLowerCase().includes(kw)
+            || x.severity.includes(kw)
         )
     }
     page = 1;
