@@ -1,6 +1,33 @@
 {
-  "update_ts": 1792772740,
+  "update_ts": 1792795953,
   "items": [
+    {
+      "time": "2026-10-23 18:50:13",
+      "level": "info",
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
+      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
+    },
+    {
+      "time": "2026-10-23 17:54:08",
+      "level": "info",
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.\n\nRuby says any",
+      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
+    },
+    {
+      "time": "2026-10-23 17:50:47",
+      "level": "info",
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
+      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
+    },
     {
       "time": "2026-10-23 13:50:56",
       "level": "info",
@@ -22,7 +49,7 @@
     {
       "time": "2026-10-23 11:11:23",
       "level": "info",
-      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
       "cve": "-",
       "source": "The Hacker News",
       "desc": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
@@ -423,33 +450,6 @@
       "source": "The Hacker News",
       "desc": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup.\n\nThe company said it has completed the following actions since it began",
       "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
-    },
-    {
-      "time": "2026-10-20 08:21:29",
-      "level": "info",
-      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An attacker used a contributor's GitHub account to replace the download archives on five existing releases of OVHcloud's command-line tool on Monday, October 19. The account had been hijacked, and the new files were a build designed to steal secrets stored on the disk of any machine that runs it, the cloud provider says.\n\nThey were live on GitHub for up to 94 minutes, from 12:47 to 14:21 UTC,",
-      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
-    },
-    {
-      "time": "2026-10-20 07:11:45",
-      "level": "info",
-      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
-      "cve": "CVE-2026-110936",
-      "source": "The Hacker News",
-      "desc": "Siemens has addressed a DLL sideloading vulnerability impacting Siemens Software Center that it said has been exploited in ClickFix attacks.\n\nThe high-severity vulnerability, tracked as CVE-2026-110936 (CVSS v4 score: 8.4), could allow an attacker to place a specially-crafted DLL in a directory the application searches, resulting in execution of malicious code with the same privileges as the",
-      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
-    },
-    {
-      "time": "2026-10-20 05:53:16",
-      "level": "info",
-      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets.\n\nIn a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
-      "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
     }
   ]
 }
