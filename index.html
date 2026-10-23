@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecAlerts - 安全情报聚合</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>SecAlerts 安全情报</h1>
+        <div class="search-box">
+            <input id="search" type="text" placeholder="搜索标题、CVE、关键词...">
+        </div>
+    </header>
+    <div class="stats">
+        <span>总数：<span id="total">0</span></span>
+    </div>
+    <div id="list"></div>
+    <div class="pager">
+        <button id="prev">上一页</button>
+        <span>第 <span id="page">1</span> 页</span>
+        <button id="next">下一页</button>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
