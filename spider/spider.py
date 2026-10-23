@@ -11,6 +11,7 @@ DATA_PATH = os.path.join(BASE_DIR, "data", "data.json")
 
 # 可自行增删RSS源
 RSS_SOURCES = [
+    {"name": "The Hacker News", "url": "https://thehackernews.com/feeds/posts/default"},
     {"name": "阿里云漏洞通告", "url": "https://avd.aliyun.com/rss"},
     {"name": "FreeBuf", "url": "https://www.freebuf.com/feed"},
     {"name": "奇安信威胁情报", "url": "https://ti.qianxin.com/rss"},
