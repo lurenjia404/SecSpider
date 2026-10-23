@@ -19,9 +19,9 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
-        run: |
-          pip install requests feedparser beautifulsoup4 python-dotenv
-
+        run:
+          pip install requests feedparser beautifulsoup4
+          
       - name: Show dir debug
         run: ls -la && ls -la spider && ls -la data
 
