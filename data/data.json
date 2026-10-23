@@ -1,14 +1,59 @@
 {
-  "update_ts": 1792745030,
+  "update_ts": 1792772740,
   "items": [
     {
-      "time": "2026-10-23 07:50:01",
+      "time": "2026-10-23 13:50:56",
+      "level": "info",
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
+      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
+    },
+    {
+      "time": "2026-10-23 11:25:43",
+      "level": "info",
+      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+      "cve": "CVE-2026-115560",
+      "source": "The Hacker News",
+      "desc": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
+      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
+    },
+    {
+      "time": "2026-10-23 11:11:23",
+      "level": "info",
+      "title": "Russian-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
+      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
+    },
+    {
+      "time": "2026-10-23 09:36:00",
+      "level": "info",
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "cve": "CVE-2026-112900",
+      "source": "The Hacker News",
+      "desc": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
+      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
+    },
+    {
+      "time": "2026-10-23 08:40:43",
       "level": "info",
       "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
       "cve": "CVE-2026-111497",
       "source": "The Hacker News",
       "desc": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
       "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
+    },
+    {
+      "time": "2026-10-23 08:35:45",
+      "level": "info",
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
+      "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
     },
     {
       "time": "2026-10-23 07:40:45",
@@ -405,51 +450,6 @@
       "source": "The Hacker News",
       "desc": "A U.S. court on Monday granted the U.S. government's request to detain a former OpenAI engineer accused of planting a recording device in an executive conference room at the company's San Francisco office to allegedly steal sensitive secrets.\n\nIn a new court filing Sunday, prosecutors revealed that Abdulrahman Alfozan, a 35-year-old Saudi national, was \"in frequent communications via WhatsApp",
       "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
-    },
-    {
-      "time": "2026-10-20 04:05:58",
-      "level": "info",
-      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of a ClickFix delivery platform called ROMULUS that's being used to distribute malware such as Legion Loader.\n\nAccording to Forescout Research - Vedere Labs, ROMULUS is akin to a malware delivery service that employs ClickFix-style lures on bogus landing pages to trick unsuspecting users into running malicious commands and infecting their own",
-      "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
-    },
-    {
-      "time": "2026-10-19 17:32:13",
-      "level": "info",
-      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\n\nAccording to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves chaining four different vulnerabilities, collectively called Plex2Shell.\n\nThe vulnerabilities",
-      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html"
-    },
-    {
-      "time": "2026-10-19 16:28:47",
-      "level": "info",
-      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a&nbsp;security notice&nbsp;published on October 16.\n\nAny site that installed and activated one of those copies should be treated as compromised, and the",
-      "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html"
-    },
-    {
-      "time": "2026-10-19 14:14:07",
-      "level": "info",
-      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.\n\nThis week had plenty of that. Trusted connections became a problem. Hardware wasn't as safe as it looked. Old bugs found new victims, and some systems were",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html"
-    },
-    {
-      "time": "2026-10-19 13:05:45",
-      "level": "info",
-      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\n\nThe latest evolution, detailed by OpenSourceMalware, signals that the attackers are actively refining their modus operandi in response to steps",
-      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html"
     }
   ]
 }
