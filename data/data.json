@@ -1,6 +1,15 @@
 {
-  "update_ts": 1792811416,
+  "update_ts": 1792831001,
   "items": [
+    {
+      "time": "2026-10-24 06:25:57",
+      "level": "info",
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "cve": "CVE-2026-110447",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
+      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
+    },
     {
       "time": "2026-10-23 18:50:13",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).\n\nThe Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously",
       "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html"
-    },
-    {
-      "time": "2026-10-20 10:56:08",
-      "level": "info",
-      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "ConnectWise on Monday said it has taken remediation measures, including strengthening administrative-access protections and resetting accounts and replacing application credentials, as it continues to respond to a security incident that led to unauthorized access to application identities associated with Cloud Backup.\n\nThe company said it has completed the following actions since it began",
-      "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
     }
   ]
 }
