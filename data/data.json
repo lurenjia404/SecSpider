@@ -1,6 +1,42 @@
 {
-  "update_ts": 1792831001,
+  "update_ts": 1792855266,
   "items": [
+    {
+      "time": "2026-10-24 11:09:29",
+      "level": "info",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "cve": "CVE-2026-111497",
+      "source": "The Hacker News",
+      "desc": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html"
+    },
+    {
+      "time": "2026-10-24 11:03:33",
+      "level": "info",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
+    },
+    {
+      "time": "2026-10-24 10:36:33",
+      "level": "info",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
+    },
+    {
+      "time": "2026-10-24 09:04:24",
+      "level": "info",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was",
+      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
+    },
     {
       "time": "2026-10-24 06:25:57",
       "level": "info",
@@ -414,42 +450,6 @@
       "source": "The Hacker News",
       "desc": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.\n\nThe finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
       "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html"
-    },
-    {
-      "time": "2026-10-20 11:41:06",
-      "level": "info",
-      "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one.\n\nThe text sat in the pages' code, never shown on screen, until it was removed by October 18. Whether the",
-      "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html"
-    },
-    {
-      "time": "2026-10-20 11:33:04",
-      "level": "info",
-      "title": "What Security Teams Can Do To Tame Wild Code",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees are building useful apps, agents, and automations faster than existing processes can support them",
-      "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html"
-    },
-    {
-      "time": "2026-10-20 11:32:59",
-      "level": "info",
-      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of&nbsp;eight intermediate certificate authority keys.\n\nPrograms built on the new release will refuse connections to sites and services whose certificates were issued under those keys. The Go team says the keys belong to one certificate authority it has not",
-      "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html"
-    },
-    {
-      "time": "2026-10-20 11:06:25",
-      "level": "info",
-      "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The Russia-linked state-sponsored threat actor tracked as APT28 (aka BlueDelta, Fancy Bear, and Forest Blizzard) has been attributed to attacks targeting two member states of the North Atlantic Treaty Organization (NATO).\n\nThe Symantec Threat Hunter Team, which is tracking the activity cluster under the moniker Swallowtail, involved the use of a backdoor called HOOKEDGE and a previously",
-      "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html"
     }
   ]
 }
