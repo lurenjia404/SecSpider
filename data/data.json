@@ -1,6 +1,15 @@
 {
-  "update_ts": 1792897524,
+  "update_ts": 1792918558,
   "items": [
+    {
+      "time": "2026-10-25 06:54:29",
+      "level": "info",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
+      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
+    },
     {
       "time": "2026-10-24 11:09:29",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
       "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
-    },
-    {
-      "time": "2026-10-20 12:59:44",
-      "level": "info",
-      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the&nbsp;Citizen Lab said&nbsp;on October 19.\n\nThe finding came six days before Serbia's October 25 snap parliamentary election. The infection used a zero-click exploit, meaning Đokić did not have to tap a link or",
-      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html"
     }
   ]
 }
