@@ -1,6 +1,24 @@
 {
-  "update_ts": 1792942253,
+  "update_ts": 1792953762,
   "items": [
+    {
+      "time": "2026-10-25 17:44:09",
+      "level": "info",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.\n\nThe findings were",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
+    },
+    {
+      "time": "2026-10-25 17:19:46",
+      "level": "info",
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "cve": "CVE-2026-109618",
+      "source": "The Hacker News",
+      "desc": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\n\"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
+    },
     {
       "time": "2026-10-25 06:54:29",
       "level": "info",
@@ -432,24 +450,6 @@
       "source": "The Hacker News",
       "desc": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
       "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html"
-    },
-    {
-      "time": "2026-10-20 15:32:27",
-      "level": "info",
-      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-      "cve": "CVE-2026-0257",
-      "source": "The Hacker News",
-      "desc": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting&nbsp; PAN-OS and Prisma Access by ransomware actors.\n\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up unauthorized VPN connections. It was patched by Palo Alto Networks in May 2026 and was",
-      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html"
-    },
-    {
-      "time": "2026-10-20 14:07:17",
-      "level": "info",
-      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\n\nThe agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, appliance company",
-      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html"
     }
   ]
 }
