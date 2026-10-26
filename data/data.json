@@ -1,6 +1,33 @@
 {
-  "update_ts": 1792983922,
+  "update_ts": 1793007583,
   "items": [
+    {
+      "time": "2026-10-26 08:35:51",
+      "level": "info",
+      "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have disclosed a Microsoft 365 campaign that has been observed leveraging an adversary-in-the-middle (AitM) relay to capture sign-in sessions and then replay the stolen tokens to break into email accounts at 79 organizations.\n\nHuntress, which observed the activity between July 14 and September 22, 2026, said it detected 497 successful Microsoft 365 sign-in events across",
+      "url": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html"
+    },
+    {
+      "time": "2026-10-26 07:49:46",
+      "level": "info",
+      "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An automated campaign is using stolen GitHub tokens to plant workflows that print a repository's secrets into its GitHub Actions logs, which the attackers then download before deleting the runs. The attacks have succeeded in private repositories and GitHub Enterprise environments, according to&nbsp;an analysis&nbsp;by cloud security company Wiz.\n\nA&nbsp;GitHub safeguard&nbsp;that pauses",
+      "url": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html"
+    },
+    {
+      "time": "2026-10-26 06:03:48",
+      "level": "info",
+      "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week.\n\nThe company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder.\n\nThe file",
+      "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
+    },
     {
       "time": "2026-10-25 17:44:09",
       "level": "info",
@@ -13,10 +40,10 @@
     {
       "time": "2026-10-25 17:19:46",
       "level": "info",
-      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
-      "cve": "CVE-2026-109618",
+      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+      "cve": "-",
       "source": "The Hacker News",
-      "desc": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\n\"In one case, the attackers targeted a government entity in Europe and within two hours of the initial exploitation they had successfully accessed password hashes and multi-factor",
+      "desc": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.\n\n\"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
       "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
     },
     {
@@ -34,7 +61,7 @@
       "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
       "cve": "CVE-2026-111497",
       "source": "The Hacker News",
-      "desc": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory, potentially",
+      "desc": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html"
     },
     {
@@ -423,33 +450,6 @@
       "source": "The Hacker News",
       "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
       "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
-    },
-    {
-      "time": "2026-10-21 06:05:15",
-      "level": "info",
-      "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A Belarus-aligned hacktivist group spent nearly two years within the network of a Russian healthcare organization.\n\nAccording to a report published by Russian cybersecurity firm Solar, the activity has been attributed to a threat cluster dubbed Partisan Zmiy, which is also known as the Cyber Partisans.\n\nKnown to be active since at least 2020, the group has a track record of striking industrial",
-      "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html"
-    },
-    {
-      "time": "2026-10-20 17:09:53",
-      "level": "info",
-      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised,&nbsp;Mozilla&nbsp;and&nbsp;Google's Chrome Root Program&nbsp;confirms on October 20.\n\nAn intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for any website that a browser would accept.\n\nA researcher reported the",
-      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html"
-    },
-    {
-      "time": "2026-10-20 15:38:52",
-      "level": "info",
-      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-      "cve": "CVE-2026-106173",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\n\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that could allow an unauthenticated attacker to execute unauthorized code or commands via specially",
-      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html"
     }
   ]
 }
