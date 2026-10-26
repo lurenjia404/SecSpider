@@ -1,6 +1,60 @@
 {
-  "update_ts": 1793007583,
+  "update_ts": 1793038317,
   "items": [
+    {
+      "time": "2026-10-26 17:45:57",
+      "level": "info",
+      "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+      "cve": "CVE-2026-111497",
+      "source": "The Hacker News",
+      "desc": "PHP has rebuilt its official Windows packages for PHP 8.2 through 8.5 to fix CVE-2026-111497, a flaw in the Brotli compression library that the packages include. The flaw can let an attacker corrupt memory and potentially run code.\n\nPHP says the flaw can be reached through the cURL extension when the extension decompresses HTTP responses automatically. cURL leaves that off by default, but",
+      "url": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html"
+    },
+    {
+      "time": "2026-10-26 15:52:40",
+      "level": "info",
+      "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers are calling attention to what they say is a \"recurring social engineering pattern\" across hundreds of cases in which threat actors use Microsoft Teams' external chat creation feature to conduct impersonation scams or to deliver malware.\n\n\"A consistent pattern of attacker behavior has emerged across these incidents: the use of the same throwaway tenants, the same 'IT",
+      "url": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html"
+    },
+    {
+      "time": "2026-10-26 14:06:13",
+      "level": "info",
+      "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "This2Shell, That2Shell, Everything2Shell. That's pretty much how the last week went. Critical bugs that let attackers run code remotely are showing up everywhere. Hackers are scanning for targets, some flaws are already being used in attacks, and security teams have more urgent patches than they can keep up with.\n\nAnd that's not even the full story. A leaked key led to a software supply-chain",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html"
+    },
+    {
+      "time": "2026-10-26 11:52:41",
+      "level": "info",
+      "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Two critical flaws in&nbsp;Wasmtime, a WebAssembly runtime that can be built into other software, could allow a malicious WebAssembly module to escape the sandbox intended to contain it, the project's maintainers say.\n\nAn attacker would first need a vulnerable Wasmtime build to compile a module they control, and one of the flaws affects only ARM64 systems. Fixed versions were released on",
+      "url": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html"
+    },
+    {
+      "time": "2026-10-26 11:23:56",
+      "level": "info",
+      "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Every SOC struggles with a pile of alerts. Very few of those alerts explain how an attack started or how it progressed. Network data, like that from a network detection and response (NDR) platform, connects individual alerts into one timeline, and it feeds the defensive systems that can tie all events together into one coordinated view.\n\nSOC teams often first see the shape of an intrusion",
+      "url": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html"
+    },
+    {
+      "time": "2026-10-26 09:54:02",
+      "level": "info",
+      "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A rentable Android spyware kit called uCreator takes over Telegram and WeChat accounts by hiding its code inside working copies of the two apps, researcher Ovi found. It only reaches people who install one of these tampered copies, spread outside the official app stores, or who run WeChat inside the kit makers' own container app.\n\nThe kit's Telegram part matches Baohuo, a backdoor that Doctor",
+      "url": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html"
+    },
     {
       "time": "2026-10-26 08:35:51",
       "level": "info",
@@ -396,60 +450,6 @@
       "source": "The Hacker News",
       "desc": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
       "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"
-    },
-    {
-      "time": "2026-10-21 10:30:27",
-      "level": "info",
-      "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Attackers took control of more than 300 Tor exit relays in early October and used them to redirect SSH connections to servers that stole login passwords, a researcher found.\n\nExit relays are the last hop in a Tor circuit, where traffic leaves the network for its destination. Only a password login to an SSH server made through Tor between October 1 and 5, after accepting the interception",
-      "url": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html"
-    },
-    {
-      "time": "2026-10-21 09:05:17",
-      "level": "info",
-      "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "This story is developing and was written before PHP's scheduled 14:00 UTC release on October 21. Once the release is out, the affected and fixed versions below are confirmed by the official advisory.\n\nPHP will ship an out-of-cycle security release at 14:00 UTC today, October 21, for two critical vulnerabilities that its security team has rated 9.2 on the CVSS v4.0 scale but has not described.\n\n⚡",
-      "url": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html"
-    },
-    {
-      "time": "2026-10-21 09:01:12",
-      "level": "info",
-      "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Unknown threat actors breached TeamUpdraft's website and potentially gained unauthorized access to customers' connection keys for UpdraftCentral, UpdraftVault, and UpdraftClone, using them to backdoor WordPress sites.\n\nTeamUpdraft is the developer behind UpdraftPlus, a popular WordPress backup plugin with over four million active installations. The vendor also offers UpdraftCentral, a remote",
-      "url": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html"
-    },
-    {
-      "time": "2026-10-21 08:04:17",
-      "level": "info",
-      "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "U.S. federal civilian agencies must remove DeepSeek products from their information technology systems, along with any third-party products or services \"developed using DeepSeek implementations,\" under a Department of Homeland Security order.\n\nThey may also no longer buy information technology products or services from the Chinese AI developer or its affiliates\n\nHomeland Security Secretary",
-      "url": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html"
-    },
-    {
-      "time": "2026-10-21 07:44:22",
-      "level": "info",
-      "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "State Bank of India has identified 3,897 customer records containing personal information in a set of about 375,000 records available on the dark web, and it does not yet know where the data came from.\n\nThe state-owned bank, India's largest, said in a&nbsp;stock-exchange filing&nbsp;dated October 21 that it \"has experienced an incident involving the loss of certain data.\" The count is",
-      "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html"
-    },
-    {
-      "time": "2026-10-21 07:26:49",
-      "level": "info",
-      "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-      "cve": "CVE-2026-96652",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added four vulnerabilities to its Known Exploited Vulnerabilities (KEV) catalog, including four vulnerabilities impacting Plex Media Server that's collectively called Plex2Shell.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-96652 (CVSS score: 5.3) - Plex Media Server Server-Side Request Forgery (SSRF)",
-      "url": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html"
     }
   ]
 }
