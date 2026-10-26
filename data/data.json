@@ -1,6 +1,15 @@
 {
-  "update_ts": 1793038317,
+  "update_ts": 1793057595,
   "items": [
+    {
+      "time": "2026-10-26 18:12:22",
+      "level": "info",
+      "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An unknown threat actor has infected 953 online stores, most of them running Magento, as part of a long-running campaign active since July 2025.\n\nAccording to Dutch e-commerce security company Sansec, the activity is designed to add a small piece of code to the store's pages that, when visited by unsuspecting users, serves malicious JavaScript loader code through Magento CMS blocks.\n\n\"When you",
+      "url": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html"
+    },
     {
       "time": "2026-10-26 17:45:57",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
       "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
-    },
-    {
-      "time": "2026-10-21 10:32:40",
-      "level": "info",
-      "title": "The Harness Is the Hard Part of Agentic Pentesting",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An AppSec team can point an AI agent running on a general-purpose model at its own web apps with little setup. Sure, the model writes the attacks. But everything that makes those attacks safe to run against production and worth acting on afterward lives in the harness around the model. The harness is where the engineering in AI pentesting sits. The Hugging Face intrusion OpenAI disclosed in July",
-      "url": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html"
     }
   ]
 }
