@@ -1,6 +1,24 @@
 {
-  "update_ts": 1793072195,
+  "update_ts": 1793093667,
   "items": [
+    {
+      "time": "2026-10-27 06:34:47",
+      "level": "info",
+      "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The Computer Emergency Response Team of Ukraine (CERT-UA) has issued an alert warning of unauthorized remote access to video surveillance systems manufactured by Dahua.\n\n\"Cases of compromising IP cameras and DVRs with access to the video stream, changing the device configuration and creating third-party accounts have been recorded,\" the State Special Communications Service of Ukraine (SSSCIP)",
+      "url": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html"
+    },
+    {
+      "time": "2026-10-27 04:37:59",
+      "level": "info",
+      "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+      "cve": "CVE-2026-109618",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday confirmed active exploitation of the recently patched PHP2Shell flaws by adding them to its Known Exploited Vulnerabilities (KEV) catalog.\n\nThe PHP vulnerabilities, both rated 9.2 on the CVSS scoring system, facilitate unauthenticated remote code execution on affected deployments -\n\n\n  CVE-2026-109618 - An out-of-memory",
+      "url": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html"
+    },
     {
       "time": "2026-10-26 18:12:22",
       "level": "info",
@@ -432,24 +450,6 @@
       "source": "The Hacker News",
       "desc": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
       "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html"
-    },
-    {
-      "time": "2026-10-21 11:53:34",
-      "level": "info",
-      "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Generative AI has changed what a malicious email looks like. Messages that once gave themselves away through clumsy wording, generic pretexts, and reused templates now arrive fluent, personalized, and unique to each recipient, and the behavioral signals email filters have relied on for years are fading as a result.\n\nProofpoint shared several examples of the shift at its Protect 2026 conference.",
-      "url": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html"
-    },
-    {
-      "time": "2026-10-21 10:36:53",
-      "level": "info",
-      "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "You cannot fully block the two critical PHP flaws called PHP2Shell before today's fix, and the one setting being passed around as a workaround is not enough on its own, the security firm that suggested it now says.\n\nPHP will release the fix at&nbsp;14:00 UTC on October 21&nbsp;for two flaws it rates 9.2 out of 10, and has given no workaround of its own. Until you can install it, what lowers your",
-      "url": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html"
     }
   ]
 }
