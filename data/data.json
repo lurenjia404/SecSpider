@@ -1,6 +1,15 @@
 {
-  "update_ts": 1793121949,
+  "update_ts": 1793143684,
   "items": [
+    {
+      "time": "2026-10-27 18:26:46",
+      "level": "info",
+      "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have disclosed details of three cyber attacks targeting organizations in Japan in which artificial intelligence (AI) was a key element, either in the driving seat or to assist a human operator.\n\nTrendAI, which analyzed three exposed server environments used by threat actors to conduct the malicious cyber operations, described them as distinct from previously published",
+      "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html"
+    },
     {
       "time": "2026-10-27 13:59:48",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
       "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
-    },
-    {
-      "time": "2026-10-22 06:38:31",
-      "level": "info",
-      "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
-      "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html"
     }
   ]
 }
