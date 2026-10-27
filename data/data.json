@@ -1,6 +1,78 @@
 {
-  "update_ts": 1793093667,
+  "update_ts": 1793121949,
   "items": [
+    {
+      "time": "2026-10-27 13:59:48",
+      "level": "info",
+      "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The GoAhead embedded web server loaded a certificate revocation list into its default TLS backend but never turned revocation checking on, so a revoked client certificate could still pass login on affected setups.\n\nThe flaw is in builds that use the OpenSSL backend with mutual-TLS, where the server checks a client certificate and vice versa, and a revocation list is configured to block revoked",
+      "url": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html"
+    },
+    {
+      "time": "2026-10-27 13:59:09",
+      "level": "info",
+      "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+      "cve": "CVE-2026-86950",
+      "source": "The Hacker News",
+      "desc": "Apple on Monday backported fixes for a high-severity security flaw that was exploited in real-world cyber attacks to older devices.\n\nThe vulnerability, tracked as CVE-2026-86950 (CVSS score: 8.8), is an out-of-bounds write affecting CoreGraphics that could result in arbitrary code execution when processing a maliciously crafted file.\n\nPatches for the flaw were released last month by Apple in",
+      "url": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html"
+    },
+    {
+      "time": "2026-10-27 12:09:50",
+      "level": "info",
+      "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+      "cve": "CVE-2026-80097",
+      "source": "The Hacker News",
+      "desc": "Microsoft has fixed a flaw in its Authenticator app for Android that let a malicious app with no permissions pose as a trusted Microsoft app, such as Teams, and collect sign-in tokens for a victim's work account.\n\nMicrosoft tracks the flaw as&nbsp;CVE-2026-80097&nbsp;and fixed it in Authenticator for Android version 6.2606.4246, so anyone using the app should update.\n\nIn the researchers' tests,",
+      "url": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html"
+    },
+    {
+      "time": "2026-10-27 11:46:00",
+      "level": "info",
+      "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An attacker who gained access to Keystone's website obtained the key that its hardware wallets use to prove they are genuine, the company said in a&nbsp;statement&nbsp;on October 26.\n\nSomeone with that key could build counterfeit devices that pass the online check owners use to verify a Keystone. A buyer who trusted a counterfeit could have their crypto stolen, but the incident did not involve",
+      "url": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html"
+    },
+    {
+      "time": "2026-10-27 11:32:46",
+      "level": "info",
+      "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Fake login pages are nothing new, but generative AI is making them easier to build and more convincing. Attackers can recreate familiar login screens, impersonate trusted brands and tailor phishing attempts to specific employees or organizations.&nbsp;\n\nSome fake login pages go beyond stealing passwords. They can also capture MFA codes or hijack authenticated sessions, allowing attackers to gain",
+      "url": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html"
+    },
+    {
+      "time": "2026-10-27 11:32:31",
+      "level": "info",
+      "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors.\n\nAccording to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up",
+      "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
+    },
+    {
+      "time": "2026-10-27 09:33:06",
+      "level": "info",
+      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.\n\n\"The next steps that we took were to disconnect that Amadey controller from all those",
+      "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html"
+    },
+    {
+      "time": "2026-10-27 08:22:43",
+      "level": "info",
+      "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "OpenAI's compaction feature, which shrinks a long conversation to save space, could be turned into a way to copy a model's hidden reasoning out in plain text,&nbsp;security firm Xint&nbsp;has shown.\n\nOpenAI's reasoning models work through a problem before answering, and the service normally returns only the raw reasoning as&nbsp;an encrypted item&nbsp;the user cannot read. The method got past",
+      "url": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html"
+    },
     {
       "time": "2026-10-27 06:34:47",
       "level": "info",
@@ -378,78 +450,6 @@
       "source": "The Hacker News",
       "desc": "A remote attacker who has not logged in can crash many HTTP/3 web servers with a single connection, security firm FoxIO&nbsp;disclosed, releasing working proof-of-concept code.\n\nBy sending a small batch of compressed HTTP headers that expands in memory to a much larger set, the attacker can force the server to use thousands of times more memory than it received, enough to run a default server",
       "url": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html"
-    },
-    {
-      "time": "2026-10-22 06:34:10",
-      "level": "info",
-      "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Amazon's Threat Intelligence team on Wednesday said it detected an attempt to exploit the newly disclosed PHP2Shell vulnerabilities dating back to October 17, 2026, against its MadPot honeypot service, as the flaws come under broad exploitation in the wild following the release of the patches.\n\n\"The exploit attempt originated from an IP address associated with a commercial anonymization network,",
-      "url": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html"
-    },
-    {
-      "time": "2026-10-22 04:21:26",
-      "level": "info",
-      "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Microsoft on Wednesday disclosed that a China state-aligned actor dubbed Storm-0940 was behind the recent supply chain compromise of the ConnectWise Cloud Backup application.\n\nDuring the incident, Storm-0940 used ARTEX, a Go-based agentic AI penetration testing framework that was made closed-source in the wake of its abuse in cyber attacks targeting South Korean financial institutions, to speed",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html"
-    },
-    {
-      "time": "2026-10-21 18:57:34",
-      "level": "info",
-      "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "GitLab released fixes on October 21 for a flaw that lets an attacker run code on a self-managed server without logging in, and it affects every version of the software going back to 7.0, released in 2014.\n\nThe fix matters even for administrators who patched nine days earlier: the October 12 update covered only versions 19.2 and later, and the new fixed versions sit one patch above it, so an",
-      "url": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html"
-    },
-    {
-      "time": "2026-10-21 18:01:57",
-      "level": "info",
-      "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The popular LiteLLM Python package has been compromised as part of a software supply chain attack that delivered a credential stealer and a backdoor, according to reports from SafeDep, Socket, StepSecurity, and Upwind.\n\nThe compromise affects LiteLLM 1.107.0, distributed through PyPI wheels and Docker images. The Python package has since been quarantined on Python Package Index (PyPI), and the",
-      "url": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html"
-    },
-    {
-      "time": "2026-10-21 16:33:47",
-      "level": "info",
-      "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "OpenAI has revealed that two artificial intelligence (AI) agents powered by GPT-6.1 Sol and GPT-6 Astra weakened misalignment monitoring while making requested software changes during two internal coding tasks.\n\nThe AI company said the incident took place on October 3 and 6, 2026, for Sol and Astra, respectively, as part of an internal deployment.\n\n\"A GPT-6.1 Sol agent repairing an evaluation",
-      "url": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html"
-    },
-    {
-      "time": "2026-10-21 14:00:00",
-      "level": "info",
-      "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "PHP has released emergency updates that fix two critical flaws in the language itself, letting an attacker without an account run code on a web server. The fixes are in PHP 8.5.12, 8.4.27, 8.3.36 and 8.2.35, and the PHP team says only updating fully protects a server.\n\nThe flaws, together called PHP2Shell, sit in the PHP runtime, not in any application, so a site is exposed even when its own",
-      "url": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html"
-    },
-    {
-      "time": "2026-10-21 13:15:09",
-      "level": "info",
-      "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Google on Tuesday said it's rolling out improved safeguards in its Chrome browser to secure users against ClickFix attacks when Enhanced Protection is enabled.\n\nClickFix is a popular social engineering technique in which bad actors trick users into copying and pasting malicious code directly into their computer's operating system, thereby bypassing conventional security controls.\n\nAs part of",
-      "url": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html"
-    },
-    {
-      "time": "2026-10-21 12:05:00",
-      "level": "info",
-      "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of a previously undocumented China-aligned threat cluster known as Bronze Sandcastle that has been observed targeting organizations in Asia and Africa since mid-2025.\n\n\"The most distinctive technical marker for Bronze Sandcastle is its consistent use of Sandboxie DLL sideloading,\" Sophos security researcher Gabor Szappanos said in a post published",
-      "url": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html"
     }
   ]
 }
