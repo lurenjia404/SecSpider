@@ -1,6 +1,78 @@
 {
-  "update_ts": 1793182792,
+  "update_ts": 1793209913,
   "items": [
+    {
+      "time": "2026-10-28 17:08:09",
+      "level": "info",
+      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.\n\nTo qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
+      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html"
+    },
+    {
+      "time": "2026-10-28 16:23:34",
+      "level": "info",
+      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&nbsp;Pwn2Own Berlin contest&nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,",
+      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html"
+    },
+    {
+      "time": "2026-10-28 16:02:45",
+      "level": "info",
+      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.\n\nThe activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
+      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
+    },
+    {
+      "time": "2026-10-28 12:48:03",
+      "level": "info",
+      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
+      "cve": "CVE-2026-101767",
+      "source": "The Hacker News",
+      "desc": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical Patch Update.\n\nSecurity researchers",
+      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
+    },
+    {
+      "time": "2026-10-28 11:50:00",
+      "level": "info",
+      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network.\n\nUEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine",
+      "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html"
+    },
+    {
+      "time": "2026-10-28 11:30:00",
+      "level": "info",
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate",
+      "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html"
+    },
+    {
+      "time": "2026-10-28 11:15:51",
+      "level": "info",
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "cve": "CVE-2026-104351",
+      "source": "The Hacker News",
+      "desc": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.\n\nThe list of eight vulnerabilities is as follows -\n\n\n  CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
+      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
+    },
+    {
+      "time": "2026-10-28 10:30:00",
+      "level": "info",
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.\n\nANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
+      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html"
+    },
     {
       "time": "2026-10-28 08:15:07",
       "level": "info",
@@ -378,78 +450,6 @@
       "source": "The Hacker News",
       "desc": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\n\nThe flaw,&nbsp;CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separate program it runs to turn the image into pixels, without checking the name first.",
       "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html"
-    },
-    {
-      "time": "2026-10-23 08:40:43",
-      "level": "info",
-      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
-      "cve": "CVE-2026-111497",
-      "source": "The Hacker News",
-      "desc": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have&nbsp;demonstrated.\n\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feeding crafted data to the bundled Brotli decoder (CVE-2026-111497). Node.js disclosed the flaw",
-      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html"
-    },
-    {
-      "time": "2026-10-23 08:35:45",
-      "level": "info",
-      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "AI agents paying for API calls with the&nbsp;x402 SDKs&nbsp;could sign a payment for their full balance of a supported token if a malicious API asked for it,&nbsp;security firm V12 said&nbsp;on October 22.\n\nThe cause was the SDKs' default client, which set no spending limit until releases on August 18 added one. The risk was limited to agents who automatically signed payments and whose apps set",
-      "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
-    },
-    {
-      "time": "2026-10-23 07:40:45",
-      "level": "info",
-      "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
-      "cve": "CVE-2026-109618",
-      "source": "The Hacker News",
-      "desc": "Threat actors have been observed unsuccessfully attempting to exploit the newly disclosed PHP2Shell vulnerabilities to rope infected systems into a Mirai botnet variant called Potassium, as it emerges that weaponizing the flaws may be harder than previously thought.\n\nThe attacks aim to exploit CVE-2026-109618 and CVE-2026-109619 (CVSS scores: 9.2), which can result in unauthenticated remote",
-      "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html"
-    },
-    {
-      "time": "2026-10-22 19:05:35",
-      "level": "info",
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\n\nNobody reviewed its access. Nobody owns it.\n\nIf an employee had that much reach with that little oversight, you would call it an insider risk. So why do we still call the agent a productivity tool?",
-      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html"
-    },
-    {
-      "time": "2026-10-22 19:05:17",
-      "level": "info",
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the&nbsp;central management system&nbsp;for VeloCloud SD-WAN networks, the company said in an&nbsp;advisory&nbsp;on October 22.\n\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account, gain operator privileges, the top level of control over it.\n\nFor",
-      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html"
-    },
-    {
-      "time": "2026-10-22 18:12:43",
-      "level": "info",
-      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business,&nbsp;its board decided on Thursday. The decision came five days after a researcher&nbsp;reported recovering the private keys&nbsp;of eight of its intermediate CA certificates.\n\neMudhra said it will replace affected customers' certificates with free ones from partners, though its",
-      "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html"
-    },
-    {
-      "time": "2026-10-22 17:45:44",
-      "level": "info",
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't even over yet.\n\nBut those big headlines are only half the story. Stolen passwords, exposed",
-      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html"
-    },
-    {
-      "time": "2026-10-22 17:01:53",
-      "level": "info",
-      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
-      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html"
     }
   ]
 }
