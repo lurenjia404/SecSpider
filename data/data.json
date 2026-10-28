@@ -1,6 +1,60 @@
 {
-  "update_ts": 1793159560,
+  "update_ts": 1793182792,
   "items": [
+    {
+      "time": "2026-10-28 08:15:07",
+      "level": "info",
+      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
+      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html"
+    },
+    {
+      "time": "2026-10-28 07:37:50",
+      "level": "info",
+      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.\n\nThe move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions",
+      "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html"
+    },
+    {
+      "time": "2026-10-28 07:13:21",
+      "level": "info",
+      "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Japan's GMO Internet Group is&nbsp;offering up to $1 million in total&nbsp;for tips that help catch the attackers who breached its Onamae.com Desktop Cloud service, after refusing to pay an extortion demand.\n\nThe reward program opened on October 28 and pays only if a tip helps lead to an arrest or an international wanted notice. The service&nbsp;hosts Windows desktops&nbsp;used for FX trading,",
+      "url": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html"
+    },
+    {
+      "time": "2026-10-28 06:20:37",
+      "level": "info",
+      "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Tailscale has released&nbsp;version 1.104.4&nbsp;to fix flaws in its built-in SSH server that could let an attacker reach services and files on other servers that only the&nbsp;root&nbsp;user should be able to touch.\n\nThe flaws are in how&nbsp;Tailscale SSH&nbsp;forwards network connections, a job the Tailscale background process carries out with root privileges. To use them, an attacker must",
+      "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html"
+    },
+    {
+      "time": "2026-10-28 06:04:58",
+      "level": "info",
+      "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+      "cve": "CVE-2026-35273",
+      "source": "The Hacker News",
+      "desc": "The critical Oracle PeopleSoft bug that ShinyHunters has exploited since May is not one flaw but three chained together, the researchers who reported it said this week.\n\nOracle patched all three under a single identifier,&nbsp;CVE-2026-35273, in June. Its root is a server-side request forgery (SSRF) that reaches an internal management interface because PeopleSoft trusts its own loopback address",
+      "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html"
+    },
+    {
+      "time": "2026-10-28 05:42:26",
+      "level": "info",
+      "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+      "cve": "CVE-2026-111497",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two vulnerabilities impacting Adobe Commerce and Magento, and Google's Brotli decoder library to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-111497 (CVSS score: 9.2) - An unchecked return value vulnerability in",
+      "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html"
+    },
     {
       "time": "2026-10-27 18:26:46",
       "level": "info",
@@ -396,60 +450,6 @@
       "source": "The Hacker News",
       "desc": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by&nbsp;Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\n\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The other, ZDI-CAN-33549, requires the SMB Direct transport and an RDMA-capable network",
       "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html"
-    },
-    {
-      "time": "2026-10-22 16:12:31",
-      "level": "info",
-      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018.\n\nAccording to multiple reports from the Associated Press, the New York Times, Reuters, and the Wall Street Journal, state District Court Judge Francis J. Mathew called",
-      "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html"
-    },
-    {
-      "time": "2026-10-22 13:38:22",
-      "level": "info",
-      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\n\nIn tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the cybercrime crackdown took place between June 29 and August 31, 2026.\n\n\"Authorities identified",
-      "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html"
-    },
-    {
-      "time": "2026-10-22 11:15:42",
-      "level": "info",
-      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\n\nUpon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in some cases, obtained the decrypted contents. The impact, it said, is limited to a \"subset of users,",
-      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html"
-    },
-    {
-      "time": "2026-10-22 10:44:05",
-      "level": "info",
-      "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A flaw in the OpenCode AI coding agent allowed a malicious or hijacked MCP server to run code on a developer's Windows or WSL machine when the developer signed in. OpenCode connects to MCP (Model Context Protocol) servers to add outside tools, and such code would run with the developer's own access.\n\nAnomaly, the company behind OpenCode, fixed the flaw in&nbsp;version 1.18.33&nbsp;on September",
-      "url": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html"
-    },
-    {
-      "time": "2026-10-22 08:28:48",
-      "level": "info",
-      "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "LiteLLM on Wednesday disclosed that threat actors compromised \"multiple independent security controls\" to push a malicious version of the Python package containing a credential stealer and a backdoor.\n\nOn October 21, 2026, LiteLLM's release pipeline was compromised to push 1.107.0 to the Docker Hub registry and the Python Package Index (PyPI) repository. The incident took place around 4:00 a.m.",
-      "url": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html"
-    },
-    {
-      "time": "2026-10-22 07:47:22",
-      "level": "info",
-      "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Node.js released&nbsp;security updates&nbsp;on October 21 for its three supported release lines, 22.x, 24.x and 26.x, fixing 10 flaws. The most serious is a bug in the Brotli decompression code that Node.js bundles, which the project says can allow remote code execution, meaning an attacker could run code of their choosing on the affected system.\n\nEach supported line has one fixed version:&nbsp;",
-      "url": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html"
     }
   ]
 }
