@@ -1,6 +1,105 @@
 {
-  "update_ts": 1793247378,
+  "update_ts": 1793285723,
   "items": [
+    {
+      "time": "2026-10-29 13:42:40",
+      "level": "info",
+      "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Google on Wednesday took the wraps off Gemini 4 Carbon, its latest frontier model with state-of-the-art cybersecurity and long-horizon capabilities.\n\n\"It shows significant gains across coding and agentic tasks as well as across key capabilities critical for cybersecurity defense, landing a firm lead in SEC-bench Pro (88.2%) for finding vulnerabilities, ExploitGym (54.8%) for exploitation, and",
+      "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html"
+    },
+    {
+      "time": "2026-10-29 11:39:41",
+      "level": "info",
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Security teams have spent years trying to detect threats faster. AI is changing the harder part: how much time defenders have left to act.\n\nAdvanced AI models can now help attackers discover vulnerabilities, generate exploit code, and move through weaknesses faster than traditional security processes were built to handle.\n\nThe challenge is no longer just finding another vulnerability or",
+      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html"
+    },
+    {
+      "time": "2026-10-29 11:39:18",
+      "level": "info",
+      "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nThe flaw can be triggered in every version from",
+      "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
+    },
+    {
+      "time": "2026-10-29 11:33:41",
+      "level": "info",
+      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
+      "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html"
+    },
+    {
+      "time": "2026-10-29 11:33:15",
+      "level": "info",
+      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by",
+      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html"
+    },
+    {
+      "time": "2026-10-29 10:44:46",
+      "level": "info",
+      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
+      "cve": "CVE-2026-76418",
+      "source": "The Hacker News",
+      "desc": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
+      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
+    },
+    {
+      "time": "2026-10-29 10:26:33",
+      "level": "info",
+      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview",
+      "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html"
+    },
+    {
+      "time": "2026-10-29 09:05:39",
+      "level": "info",
+      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
+      "cve": "CVE-2026-97229",
+      "source": "The Hacker News",
+      "desc": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October.\n\nThe flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
+      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html"
+    },
+    {
+      "time": "2026-10-29 08:24:22",
+      "level": "info",
+      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
+      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
+    },
+    {
+      "time": "2026-10-29 06:22:33",
+      "level": "info",
+      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+      "cve": "CVE-2026-41709",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.\n\nThe vulnerability in question is CVE-2026-41709 (CVSS score:",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
+    },
+    {
+      "time": "2026-10-29 05:50:17",
+      "level": "info",
+      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory.\n\nThe vulnerabilities, tracked as",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
+    },
     {
       "time": "2026-10-28 18:08:33",
       "level": "info",
@@ -351,105 +450,6 @@
       "source": "The Hacker News",
       "desc": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
       "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
-    },
-    {
-      "time": "2026-10-24 11:09:29",
-      "level": "info",
-      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
-      "cve": "CVE-2026-111497",
-      "source": "The Hacker News",
-      "desc": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, Microsoft's .NET, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy proxies set up to decompress Brotli.\n\nTracked as&nbsp;CVE-2026-111497, the flaw allows crafted compressed data to overwrite past the end of a buffer and corrupt a program's memory,",
-      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html"
-    },
-    {
-      "time": "2026-10-24 11:03:33",
-      "level": "info",
-      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM-Labs/lite-harness repository which inadvertently contained the master key to a deployment of",
-      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html"
-    },
-    {
-      "time": "2026-10-24 10:36:33",
-      "level": "info",
-      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\n\"You may choose to allow certain Google services, including services like Search or Gemini Apps, to access data from other Google services you use,",
-      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html"
-    },
-    {
-      "time": "2026-10-24 09:04:24",
-      "level": "info",
-      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\n\nThe updater belongs to Time4Popcorn, an abandoned copy of Popcorn Time, a free app that streamed pirated films and TV over BitTorrent.\n\nPopcorn Time was",
-      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html"
-    },
-    {
-      "time": "2026-10-24 06:25:57",
-      "level": "info",
-      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
-      "cve": "CVE-2026-110447",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\n\nThe critical-severity vulnerabilities are listed below -\n\n\n  CVE-2026-110447 (CVSS score: 9.2) - An operating",
-      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html"
-    },
-    {
-      "time": "2026-10-23 18:50:13",
-      "level": "info",
-      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\n\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a China-linked state-sponsored hacking group known as APT41, Kaspersky said in a technical report",
-      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html"
-    },
-    {
-      "time": "2026-10-23 17:54:08",
-      "level": "info",
-      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\n\nGitLab found that a specially crafted pattern could corrupt memory while Ruby compiles it, potentially leading to code execution on its own servers.\n\nRuby says any",
-      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html"
-    },
-    {
-      "time": "2026-10-23 17:50:47",
-      "level": "info",
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\n\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be Russian-speaking and functions both as an intrusion and data-extortion operator, as well as an",
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html"
-    },
-    {
-      "time": "2026-10-23 13:50:56",
-      "level": "info",
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access to numerous organizations worldwide, and have attempted to further compromise some victims,",
-      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
-    },
-    {
-      "time": "2026-10-23 11:25:43",
-      "level": "info",
-      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-      "cve": "CVE-2026-115560",
-      "source": "The Hacker News",
-      "desc": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\n\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.The project is not issuing an emergency fix for it. Instead, it recommends turning off a feature called",
-      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html"
-    },
-    {
-      "time": "2026-10-23 11:11:23",
-      "level": "info",
-      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\n\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 2025, via a spear-phishing email bearing a malware-laced attachment that led to the deployment of",
-      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html"
     }
   ]
 }
