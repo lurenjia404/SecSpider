@@ -1,6 +1,33 @@
 {
-  "update_ts": 1793285723,
+  "update_ts": 1793307020,
   "items": [
+    {
+      "time": "2026-10-29 19:11:58",
+      "level": "info",
+      "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Some attacks take real skill. Others just need someone to leave a door open. This week has both. Exposed passwords, old bugs still getting exploited, and trusted software doing things it shouldn't.\n\nThere's a strange mix of clever tricks and careless mistakes. Hackers are borrowing trust from familiar apps, websites, and AI tools. Some are using AI to speed things up. Others are leaving their",
+      "url": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html"
+    },
+    {
+      "time": "2026-10-29 15:57:05",
+      "level": "info",
+      "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+      "cve": "CVE-2026-98432",
+      "source": "The Hacker News",
+      "desc": "A flaw in the Linux kernel's TCP code, tracked as&nbsp;CVE-2026-98432, affects Ubuntu, Red Hat Enterprise Linux (RHEL), and other Linux distributions. The kernel's own CVE team rates it 9.8 out of 10 on the CVSS scale.\n\nAnthropic said&nbsp;on October 27 that its AI model wrote an exploit that uses the flaw to let a remote attacker with no credentials run commands as root on Linux servers with a",
+      "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html"
+    },
+    {
+      "time": "2026-10-29 15:20:29",
+      "level": "info",
+      "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Threat actors are delivering malicious loaders and cryptocurrency miners under the guise of artificial intelligence (AI) desktop applications for Anthropic Claude and OpenAI ChatGPT as part of a campaign dubbed Yoba.\n\nThe activity involves creating fake GitHub projects that claim to be desktop applications like GPT-5.6 Sol, GPT-6 Astra, and Claude Opus, only to deliver a malware family called",
+      "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html"
+    },
     {
       "time": "2026-10-29 13:42:40",
       "level": "info",
@@ -25,7 +52,7 @@
       "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
       "cve": "-",
       "source": "The Hacker News",
-      "desc": "A flaw in Telegram for Android allowed an attacker to run code on a victim's phone via a voice call once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nThe flaw can be triggered in every version from",
+      "desc": "A flaw in Telegram for Android could be chained with two other bugs to take full control of a victim's phone through a voice call, once the victim answered, according to security startup NebuSec.\n\nThe attacker needed only an ordinary Telegram account. Telegram fixed the flaw in version 12.10.4 of the app, released in late September, and NebuSec&nbsp;disclosed it on October 29.\n\nCombined with an",
       "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html"
     },
     {
@@ -423,33 +450,6 @@
       "source": "The Hacker News",
       "desc": "A malicious instruction file sitting in a developer's Downloads folder tried to make their AI coding agent install a known-malicious npm package, security firm&nbsp;Forever Security said&nbsp;in a report published last week.\n\nThe company caught the attempt on a real customer's machine and stopped the agent before any code ran. It could not determine how the file got into the folder.\n\nThe file",
       "url": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html"
-    },
-    {
-      "time": "2026-10-25 17:44:09",
-      "level": "info",
-      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\n\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls one device that the network's access rules permit to connect to the target.\n\nThe findings were",
-      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html"
-    },
-    {
-      "time": "2026-10-25 17:19:46",
-      "level": "info",
-      "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "In an update, Palo Alto Networks Unit 42 said it's retracting its earlier assessment that the post-compromise activity targeting the European government agency involved the exploitation of the PHP2Shell flaws.\n\n\"What researchers saw was an attack against a European government agency executed in the context of a vulnerable PHP application,\" a spokesperson for the company told The Hacker News via",
-      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html"
-    },
-    {
-      "time": "2026-10-25 06:54:29",
-      "level": "info",
-      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\n\"Based on the current state of alignment research, monitoring systems, and the security of internet infrastructure, we believe the responsible approach is to conduct frontier model training with no",
-      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html"
     }
   ]
 }
