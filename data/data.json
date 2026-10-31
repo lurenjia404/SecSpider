@@ -1,6 +1,15 @@
 {
-  "update_ts": 1793441638,
+  "update_ts": 1793465182,
   "items": [
+    {
+      "time": "2026-10-31 12:01:56",
+      "level": "info",
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\n\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials, or session tokens.\n\n\"This month, Chainalysis detected an external actor using offensive agentic",
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html"
+    },
     {
       "time": "2026-10-31 08:27:43",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "The North Korea-linked Lazarus Group has been attributed to a cyber espionage campaign dubbed Operation FlashHole targeting at least three organizations in South Korea spanning the construction, software, and wire-communication equipment manufacturing sectors.\n\nAccording to Russian cybersecurity company Kaspersky, the campaign has been active since at least July 2025. It's assessed to pick up",
       "url": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html"
-    },
-    {
-      "time": "2026-10-27 09:33:06",
-      "level": "info",
-      "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A criminal using the Amadey malware can no longer access or steal data from 180,000 infected computers around the world, including some in Australia, the Australian Signals Directorate (ASD) says. The agency's operators gained access to the criminal's operation's backend and cut it off from those computers.\n\n\"The next steps that we took were to disconnect that Amadey controller from all those",
-      "url": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html"
     }
   ]
 }
