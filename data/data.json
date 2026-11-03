@@ -1,6 +1,15 @@
 {
-  "update_ts": 1793641570,
+  "update_ts": 1793671120,
   "items": [
+    {
+      "time": "2026-11-02 16:57:56",
+      "level": "info",
+      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble.\n\nThen there were the bigger messes. Billions stolen, hidden networks of hacked devices, poisoned software, and attackers finding new ways to turn normal tools against",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html"
+    },
     {
       "time": "2026-11-02 15:50:26",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
       "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html"
-    },
-    {
-      "time": "2026-10-28 07:37:50",
-      "level": "info",
-      "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The U.S. Department of Justice (DoJ) on Tuesday announced the seizure of a domain associated with a bulletproof hosting provider (BPH) named Virtualine.\n\nThe move was in response to the service being used to commit and facilitate prolific criminal activity, including \"the advertisement of sexually explicit images of minors, the intentional disclosure of nonconsensual intimate visual depictions",
-      "url": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html"
     }
   ]
 }
