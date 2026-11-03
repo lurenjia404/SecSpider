@@ -1,6 +1,51 @@
 {
-  "update_ts": 1793671120,
+  "update_ts": 1793705763,
   "items": [
+    {
+      "time": "2026-11-03 08:31:48",
+      "level": "info",
+      "title": "Hackers Exploit BTCPay Server Flaw to Steal Bitcoin and Litecoin From Hot Wallets",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "BTCPay Server, a self-hosted, open-source cryptocurrency payment processor, has urged users to install the latest version of its software in response to reports of Bitcoin and Litecoin being stolen from hot wallets on instances running older versions.\n\n\"Our investigation found that these attacks targeted servers running BTCPay Server 2.4.1 (released on 23 July 2026) or earlier,\" BTCPay Server",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-btcpay-server-flaw-to.html"
+    },
+    {
+      "time": "2026-11-03 07:43:07",
+      "level": "info",
+      "title": "Synology NAS Devices Targeted in Ransomware Attacks Exploiting Patched DSM Flaw",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Synology is urging customers to update the DiskStation Manager (DSM) software powering its Network Attached Storage (NAS) devices following ransomware attacks.\n\nThe Taiwanese vendor said it observed threat actors exploiting a vulnerability patched in December 2024 to target devices running outdated versions of DSM.\n\n\"These attacks aim to encrypt data and extort ransom,\" it said in a statement",
+      "url": "https://thehackernews.com/2026/11/synology-nas-devices-targeted-in.html"
+    },
+    {
+      "time": "2026-11-03 07:27:07",
+      "level": "info",
+      "title": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Attackers remotely changed the settings on refrigeration controls at supermarkets in Belgium, Sweden, Estonia and other European countries overnight into Monday, November 2, warming fridges and freezers.\n\nNo chain reported more than several dozen affected stores, and some had to throw away chilled and frozen food or take it off the shelf. Danfoss, a Danish maker of refrigeration controls,&nbsp",
+      "url": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html"
+    },
+    {
+      "time": "2026-11-03 05:34:41",
+      "level": "info",
+      "title": "Attackers Exploit Critical Siemens IoT2050 Flaw to Plant Remote Command Backdoors",
+      "cve": "CVE-2026-58115",
+      "source": "The Hacker News",
+      "desc": "A maximum-severity security flaw impacting Siemens SIMATIC IoT2050 Advanced devices has come under active exploitation, VulnCheck has revealed.\n\nThe vulnerability, tracked as CVE-2026-58115 (CVSS score: 10.0), is a case of missing authentication for a critical function that could be exploited by an unauthenticated remote attacker to run arbitrary code.\n\n\"SIMATIC IoT2050 Advanced devices running",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-critical-siemens.html"
+    },
+    {
+      "time": "2026-11-03 05:34:37",
+      "level": "info",
+      "title": "Attackers Target Unpatched CryptoPayment Gateway Flaw That Can Expose Wallet Credentials",
+      "cve": "CVE-2026-81648",
+      "source": "The Hacker News",
+      "desc": "Threat actors are attempting to exploit an unpatched maximum-severity security vulnerability in the CryptoPayment Gateway WordPress plugin, according to findings from Defused Cyber.\n\nThe vulnerability in question is CVE-2026-81648, which carries a CVSS score of 10.0. Successful exploitation of the flaw could permit unauthenticated users to delete arbitrary files on the server and extract",
+      "url": "https://thehackernews.com/2026/11/attackers-target-unpatched.html"
+    },
     {
       "time": "2026-11-02 16:57:56",
       "level": "info",
@@ -405,51 +450,6 @@
       "source": "The Hacker News",
       "desc": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
       "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
-    },
-    {
-      "time": "2026-10-28 11:50:00",
-      "level": "info",
-      "title": "Critical 16-Year-Old UEFI Flaw Can Run Code Before Secure Boot on Network-Booting Servers",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A critical 16-year-old flaw in EDK II, the open-source code that most hardware makers use to build UEFI firmware, can allow an attacker to run code on a machine before its operating system loads, but only while the machine is booting over the network.\n\nUEFI firmware is the software that runs first when a computer is switched on, before the operating system. An attacker who can reach the machine",
-      "url": "https://thehackernews.com/2026/10/critical-16-year-old-uefi-flaw-can-run.html"
-    },
-    {
-      "time": "2026-10-28 11:30:00",
-      "level": "info",
-      "title": "Wazuh and AI for Enhanced SOC Workflows",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Artificial Intelligence (AI) has become one of this decade's defining technologies. From healthcare and finance to manufacturing and education, organizations increasingly rely on AI to automate repetitive tasks, uncover patterns hidden within large datasets, and support faster decision-making. Cybersecurity has experienced a similar transformation. While attackers employ AI to automate",
-      "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html"
-    },
-    {
-      "time": "2026-10-28 11:15:51",
-      "level": "info",
-      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
-      "cve": "CVE-2026-104351",
-      "source": "The Hacker News",
-      "desc": "Adobe has released patches to address multiple critical security flaws in Campaign Classic that, if successfully exploited, could result in arbitrary code execution, security feature bypass, and privilege escalation.\n\nThe list of eight vulnerabilities is as follows -\n\n\n  CVE-2026-104351 (CVSS score: 9.9) - A code injection vulnerability that could lead to arbitrary code execution.",
-      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
-    },
-    {
-      "time": "2026-10-28 10:30:00",
-      "level": "info",
-      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Modern phishing campaigns can compromise American businesses without relying on traditional credential theft. Attackers can abuse legitimate cloud services, authentication mechanisms, and trusted business workflows to gain access to corporate accounts while leaving fewer obvious signs behind.\n\nANY.RUN's analysis of Skyw4lker, a device code phishing campaign primarily targeting U.S. organizations",
-      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html"
-    },
-    {
-      "time": "2026-10-28 08:15:07",
-      "level": "info",
-      "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An unreleased Anthropic AI model found security flaws in Chrome, Safari, Android, Windows, and Linux and chained them into working proof-of-concept exploits, the company said in its latest report.\n\nThe exploits were built in the lab after the model was prompted, not seen in any real attack, and Anthropic reported every flaw to the vendor first, so all of them are already patched. One proof of",
-      "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html"
     }
   ]
 }
