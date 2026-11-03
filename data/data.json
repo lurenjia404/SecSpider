@@ -1,6 +1,87 @@
 {
-  "update_ts": 1793705763,
+  "update_ts": 1793732403,
   "items": [
+    {
+      "time": "2026-11-03 18:46:38",
+      "level": "info",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys.\n\nThe warning came in an email sent on November 3 in the name of developer mSeven Software. It says the company recently learned of suspicious activity linked to the app but",
+      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html"
+    },
+    {
+      "time": "2026-11-03 18:16:19",
+      "level": "info",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.\n\nThe incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign that came to light last week.\n\n\"An external attacker gained unauthorized access to part of",
+      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html"
+    },
+    {
+      "time": "2026-11-03 16:55:58",
+      "level": "info",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targeting two of its engineers.\n\n\"It was not a single isolated breach or a simple phishing incident,\"",
+      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html"
+    },
+    {
+      "time": "2026-11-03 15:59:19",
+      "level": "info",
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "cve": "CVE-2026-116606",
+      "source": "The Hacker News",
+      "desc": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.\n\nThe vulnerabilities, a pre-authentication authorization bypass vulnerability and a command injection vulnerability, have been assigned the CVE identifiers CVE-2026-116606 (CVSS score: 9.3)",
+      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html"
+    },
+    {
+      "time": "2026-11-03 15:41:53",
+      "level": "info",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\n\nThe tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API key through phishing, source code leaks, misconfigured environments, or exposed client-side code",
+      "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html"
+    },
+    {
+      "time": "2026-11-03 15:16:32",
+      "level": "info",
+      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers.\n\nThe script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an advisory. The attacker has since taken some of that data.\n\ncPGuard 5.88.25 and later versions",
+      "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html"
+    },
+    {
+      "time": "2026-11-03 11:23:53",
+      "level": "info",
+      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+      "cve": "CVE-2026-98432",
+      "source": "The Hacker News",
+      "desc": "Fixed kernels for a&nbsp;use-after-free vulnerability in the Linux kernel's IPv4 TCP code&nbsp;are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.\n\nThe flaw, tracked as CVE-2026-98432, can be reached by a remote, unauthenticated attacker and can",
+      "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html"
+    },
+    {
+      "time": "2026-11-03 11:18:20",
+      "level": "info",
+      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer than 10% of vulnerabilities are exploited, yet most are treated as urgent. The report also argues",
+      "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html"
+    },
+    {
+      "time": "2026-11-03 11:00:45",
+      "level": "info",
+      "title": "Russia-Aligned Gorbag Hackers Exploit WinRAR Flaw to Deploy Data-Stealing Malware",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A Russia-aligned threat actor known as Gorbag has been observed using simple information stealer malware in attacks targeting Ukrainian organizations.\n\n\"Active since at least February 2025, the group has focused exclusively on Ukrainian targets, with a clear preference for law enforcement and justice entities, local administrations near the front line, and the defense sector,\" ESET researcher",
+      "url": "https://thehackernews.com/2026/11/russia-aligned-gorbag-hackers-exploit.html"
+    },
     {
       "time": "2026-11-03 08:31:48",
       "level": "info",
@@ -369,87 +450,6 @@
       "source": "The Hacker News",
       "desc": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview",
       "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html"
-    },
-    {
-      "time": "2026-10-29 09:05:39",
-      "level": "info",
-      "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-      "cve": "CVE-2026-97229",
-      "source": "The Hacker News",
-      "desc": "An attacker tried to exploit a critical GitLab vulnerability on the Alpine Linux project's own GitLab server a week after GitLab&nbsp;released a fix, Alpine Linux&nbsp;said&nbsp;on 28 October.\n\nThe flaw, CVE-2026-97229 (CVSS score: 10.0), can let an attacker run code on a GitLab server through a crafted regular expression in a CI configuration. Alpine found no evidence that the attack worked but",
-      "url": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html"
-    },
-    {
-      "time": "2026-10-29 08:24:22",
-      "level": "info",
-      "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Hackers exploited a critical Cisco Catalyst SD-WAN flaw, fixed in February, to plant custom malware inside the systems that control an organization's SD-WAN network.\n\nThe malware, called KeyDrift, is designed to copy the keys that encrypt traffic between sites and store them for later use,&nbsp;Cisco Talos said&nbsp;on October 28. Talos calls the attacks historical but does not specify when they",
-      "url": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html"
-    },
-    {
-      "time": "2026-10-29 06:22:33",
-      "level": "info",
-      "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-      "cve": "CVE-2026-41709",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a security flaw impacting Broadcom VMware ESX to its Known Exploited Vulnerabilities (KEV) catalog, after CrowdStrike revealed that it had been weaponized by a China-nexus threat actor known as Warp Panda in attacks targeting the U.S. legal sector.\n\nThe vulnerability in question is CVE-2026-41709 (CVSS score:",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html"
-    },
-    {
-      "time": "2026-10-29 05:50:17",
-      "level": "info",
-      "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Palo Alto Networks on Wednesday warned that threat actors are exploiting the recently patched PHP2Shell vulnerabilities against publicly-accessible management interfaces.\n\n\"Active exploitation has been observed targeting the Palo Alto Networks management interface exposed to the internet,\" the network security company said in an update to its advisory.\n\nThe vulnerabilities, tracked as",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html"
-    },
-    {
-      "time": "2026-10-28 18:08:33",
-      "level": "info",
-      "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The China-nexus cyber espionage group known as Volt Typhoon has been attributed to a now-disrupted covert access network dubbed Silent Train that has been put to use for zero-day exploitation and strategic access.\n\n\"First identified in late 2023, Silent Train uses rotating chains of compromised SOHO, IoT, and enterprise infrastructure,\" Lumen Technologies Black Lotus Labs said in a report shared",
-      "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html"
-    },
-    {
-      "time": "2026-10-28 17:08:09",
-      "level": "info",
-      "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Third-party Android app stores can now apply to Google for permission to install apps with one tap, without Android's usual confirmation screens, and to update them in the background.\n\nTo qualify, a store must pass identity checks and send Google&nbsp;its full catalog, along with every new app and update, for ongoing malware scanning. Approved stores get the features from December 1, but only on",
-      "url": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html"
-    },
-    {
-      "time": "2026-10-28 16:23:34",
-      "level": "info",
-      "title": "Researcher Reveals How Logic Bugs Alone Cracked Microsoft Edge in $175,000 Pwn2Own Win",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A chain of logic flaws, with no memory corruption, can turn a malicious web page into code running on a Windows computer outside Microsoft Edge's sandbox, a security researcher has shown.\n\nOrange Tsai of DEVCORE published the full method on October 28, five months after the chain won $175,000 at the&nbsp;Pwn2Own Berlin contest&nbsp;in May. Microsoft fixed the Edge bugs the day after the contest,",
-      "url": "https://thehackernews.com/2026/10/researcher-reveals-how-logic-bugs-alone.html"
-    },
-    {
-      "time": "2026-10-28 16:02:45",
-      "level": "info",
-      "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of what appears to be an artificial intelligence (AI)-assisted attack orchestrated by a suspected China-nexus threat actor that has leveraged the PHP2Shell vulnerabilities to breach exposed systems.\n\nThe activity, which was observed on October 25, 2026, involved an attacker combining PHP2Shell with a kernel privilege escalation exploit to root",
-      "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html"
-    },
-    {
-      "time": "2026-10-28 12:48:03",
-      "level": "info",
-      "title": "Hackers Target Critical Oracle E-Business Suite RCE Flaw Days After Security Patch",
-      "cve": "CVE-2026-101767",
-      "source": "The Hacker News",
-      "desc": "Threat actors are beginning to probe for a newly patched critical vulnerability in Oracle E-Business Suite (EBS), according to threat intelligence firm Defused Cyber.\n\nThe vulnerability in question is CVE-2026-101767 (CVSS score: 9.8) , a case of improper authentication in the Oracle Application Object Library of Oracle E-Business Suite. It was patched by Oracle last week as part of its Critical",
-      "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html"
     }
   ]
 }
