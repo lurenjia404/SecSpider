@@ -1,6 +1,33 @@
 {
-  "update_ts": 1793751695,
+  "update_ts": 1793793025,
   "items": [
+    {
+      "time": "2026-11-04 08:17:11",
+      "level": "info",
+      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.\n\nThe Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
+      "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
+    },
+    {
+      "time": "2026-11-04 07:46:15",
+      "level": "info",
+      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+      "cve": "CVE-2026-58868",
+      "source": "The Hacker News",
+      "desc": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its&nbsp;November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules.\n\nAs of November 4, Google's bulletin did not report",
+      "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
+    },
+    {
+      "time": "2026-11-04 05:43:11",
+      "level": "info",
+      "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+      "cve": "CVE-2026-119977",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a security flaw in WordPress Core to the Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe high-severity vulnerability, tracked as CVE-2026-119977 (CVSS score: 8.1), is a case of Time-of-check Time-of-use (TOCTOU) race condition that could be exploited to achieve arbitrary code",
+      "url": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html"
+    },
     {
       "time": "2026-11-03 18:46:38",
       "level": "info",
@@ -423,33 +450,6 @@
       "source": "The Hacker News",
       "desc": "AI is beginning to take over much of the work that has traditionally defined the security analyst's job. Investigating alerts, collecting evidence, correlating activity across tools, and executing response actions are becoming tasks that AI systems can perform on their own. As these capabilities mature, security operations centers (SOCs) will see major changes in how work is organized, how",
       "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html"
-    },
-    {
-      "time": "2026-10-29 11:33:15",
-      "level": "info",
-      "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "26,400 credentials that developers left in public code on Gitee, a Chinese code-hosting service, still worked when a researcher tested them. Anyone who copied one from that code could have used it.\n\nIndependent researcher Ben Zimmermann found them by scanning 7.25 million public Gitee repositories and&nbsp;reported the results&nbsp;on October 28. Most were keys for cloud and AI services, led by",
-      "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html"
-    },
-    {
-      "time": "2026-10-29 10:44:46",
-      "level": "info",
-      "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-      "cve": "CVE-2026-76418",
-      "source": "The Hacker News",
-      "desc": "Cisco has released patches to address a high-severity security flaw in Secure Firewall Adaptive Security Appliance (ASA) Software and Secure Firewall Threat Defense (FTD) Software that it said has been exploited in the wild.\n\nThe vulnerability, tracked as CVE-2026-76418, is rated 8.6 on the CVSS scoring system. Successful exploitation could allow an unauthenticated, remote attacker to cause the",
-      "url": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html"
-    },
-    {
-      "time": "2026-10-29 10:26:33",
-      "level": "info",
-      "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "GitHub has announced that it's introducing a new package firewall as a preview to block installation of suspicious npm packages during installation time.\n\n\"The firewall inspects both metadata requests and package downloads for signs of malicious activity, acting as an install-time policy gate,\" GitHub said.\n\nThe feature, which currently supports only npm packages, is available in public preview",
-      "url": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html"
     }
   ]
 }
