@@ -1,6 +1,60 @@
 {
-  "update_ts": 1793839380,
+  "update_ts": 1793879422,
   "items": [
+    {
+      "time": "2026-11-05 10:06:19",
+      "level": "info",
+      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.\n\nBelow, we examine five",
+      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
+    },
+    {
+      "time": "2026-11-05 09:13:28",
+      "level": "info",
+      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.\n\nThe change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\"\n\nWhen users choose this option,",
+      "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html"
+    },
+    {
+      "time": "2026-11-05 08:42:03",
+      "level": "info",
+      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.\n\nDescribing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
+      "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
+    },
+    {
+      "time": "2026-11-05 07:06:33",
+      "level": "info",
+      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.\n\nThe exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole.\n\nThe earlier fix is the 2.90",
+      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
+    },
+    {
+      "time": "2026-11-05 05:17:04",
+      "level": "info",
+      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+      "cve": "CVE-2024-27834",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
+    },
+    {
+      "time": "2026-11-05 04:31:16",
+      "level": "info",
+      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
+      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
+    },
     {
       "time": "2026-11-04 17:00:46",
       "level": "info",
@@ -34,7 +88,7 @@
       "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
       "cve": "-",
       "source": "The Hacker News",
-      "desc": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
+      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
       "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
     },
     {
@@ -396,60 +450,6 @@
       "source": "The Hacker News",
       "desc": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\n\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carries a CVSS score of 8.1 on the CVSS scoring system. Patches for the flaw were released on October",
       "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html"
-    },
-    {
-      "time": "2026-10-30 12:21:56",
-      "level": "info",
-      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\n\nTrezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to move their funds to a new wallet with a new recovery phrase.\n\nTrezor said in a&nbsp;blog post&nbsp",
-      "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html"
-    },
-    {
-      "time": "2026-10-30 11:58:53",
-      "level": "info",
-      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.&nbsp;\n\nTheir concerns are practical. An IPS protection could block legitimate traffic. A configuration change could interrupt a service. An endpoint policy could affect an application",
-      "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html"
-    },
-    {
-      "time": "2026-10-30 10:40:45",
-      "level": "info",
-      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\n\nThe conspiracy was organized and led by members of former Syrian President Bashar al-Assad's inner circle, including the commander of Syria's General Intelligence",
-      "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html"
-    },
-    {
-      "time": "2026-10-30 08:55:47",
-      "level": "info",
-      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems.\n\nThe malicious update, version 2.1.313, was distributed under the extension's legitimate publisher identity, prompting Cursor to temporarily shut",
-      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
-    },
-    {
-      "time": "2026-10-30 07:45:30",
-      "level": "info",
-      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-      "cve": "CVE-2026-118539",
-      "source": "The Hacker News",
-      "desc": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\n\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.\n\n\"This module enables you to sell goods and services to customers through an included shopping cart",
-      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html"
-    },
-    {
-      "time": "2026-10-30 07:27:05",
-      "level": "info",
-      "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-      "cve": "CVE-2026-97229",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Cisco and GitLab software to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-97229 (CVSS score: 10.0) - An integer overflow or wraparound vulnerability in GitLab Community Edition and Enterprise",
-      "url": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html"
     }
   ]
 }
