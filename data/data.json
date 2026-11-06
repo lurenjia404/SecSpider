@@ -1,6 +1,51 @@
 {
-  "update_ts": 1793965598,
+  "update_ts": 1793991119,
   "items": [
+    {
+      "time": "2026-11-06 16:08:38",
+      "level": "info",
+      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\n\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the right moment can run code on the server. The researcher advises blocking web access to the",
+      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html"
+    },
+    {
+      "time": "2026-11-06 15:21:49",
+      "level": "info",
+      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
+      "cve": "CVE-2026-123158",
+      "source": "The Hacker News",
+      "desc": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\n\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux systems that run OpenSSH on the musl C library with Pluggable Authentication Modules (PAM) disabled,",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html"
+    },
+    {
+      "time": "2026-11-06 14:58:32",
+      "level": "info",
+      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\n\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reliable staying within the boundaries researchers set,\" OpenAI said. It has classified the model as",
+      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html"
+    },
+    {
+      "time": "2026-11-06 12:06:43",
+      "level": "info",
+      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
+      "cve": "CVE-2026-83844",
+      "source": "The Hacker News",
+      "desc": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\n\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\n\nThe flaw is an out-of-bounds read that could let an attacker run code over a network. Microsoft rates",
+      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html"
+    },
+    {
+      "time": "2026-11-06 12:06:35",
+      "level": "info",
+      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\n\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop. The flaw that makes this possible can still be exploited, the researchers said earlier this",
+      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html"
+    },
     {
       "time": "2026-11-06 11:30:00",
       "level": "info",
@@ -405,51 +450,6 @@
       "source": "The Hacker News",
       "desc": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller.\n\nMicrosoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company",
       "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html"
-    },
-    {
-      "time": "2026-11-02 10:49:59",
-      "level": "info",
-      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure.\n\nThe activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been tracked under the moniker CL-UNK-1211, where \"CL\" refers to cluster and \"UNK\" stands for unknown",
-      "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html"
-    },
-    {
-      "time": "2026-11-02 05:51:07",
-      "level": "info",
-      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.\n\nLike other typical stealer families, VOLTA is equipped to harvest passwords and cookies from Chromium-based web browsers; data from Outlook profiles and Slack workspaces;",
-      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html"
-    },
-    {
-      "time": "2026-11-01 08:51:31",
-      "level": "info",
-      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.\n\nOnce in, the attacker would act as that client, with access to the cluster and its virtual machines. If the impersonated account is",
-      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html"
-    },
-    {
-      "time": "2026-11-01 07:25:40",
-      "level": "info",
-      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.\n\nPolymarket says&nbsp;it is refunding about $2.7 million to 726 affected wallets.&nbsp;Blockchain records&nbsp;show crypto worth about $2.64 million reached",
-      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html"
-    },
-    {
-      "time": "2026-11-01 07:03:00",
-      "level": "info",
-      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets from Binance to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\n\nThe FBI, along with the U.S. Secret Service (USSS) and the Internal Revenue Service Criminal Investigation (IRS-CI),",
-      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html"
     }
   ]
 }
