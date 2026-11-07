@@ -1,6 +1,15 @@
 {
-  "update_ts": 1794026903,
+  "update_ts": 1794062357,
   "items": [
+    {
+      "time": "2026-11-07 06:44:17",
+      "level": "info",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\n\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in a project settings file.\n\nSoftware security company Apiiro said yesterday that 1,122 public",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+    },
     {
       "time": "2026-11-06 16:08:38",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decision is whether their own SOC is ready.\n\nAI SOC readiness has two parts: whether a SOC has the",
       "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html"
-    },
-    {
-      "time": "2026-11-02 11:08:45",
-      "level": "info",
-      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller.\n\nMicrosoft said in&nbsp;a report&nbsp;that it investigated two such intrusions, one of which resulted in company",
-      "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html"
     }
   ]
 }
