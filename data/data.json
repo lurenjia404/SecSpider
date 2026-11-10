@@ -1,6 +1,78 @@
 {
-  "update_ts": 1794312239,
+  "update_ts": 1794346687,
   "items": [
+    {
+      "time": "2026-11-10 19:23:10",
+      "level": "info",
+      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "cve": "CVE-2026-111760",
+      "source": "The Hacker News",
+      "desc": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
+      "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html"
+    },
+    {
+      "time": "2026-11-10 19:19:39",
+      "level": "info",
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
+      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
+    },
+    {
+      "time": "2026-11-10 18:12:21",
+      "level": "info",
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\n\"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
+    },
+    {
+      "time": "2026-11-10 17:43:23",
+      "level": "info",
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year.\n\nCheck Point Research is tracking the clusters under the names SilentDelivery,",
+      "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
+    },
+    {
+      "time": "2026-11-10 16:00:55",
+      "level": "info",
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "cve": "CVE-2026-105133",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
+    },
+    {
+      "time": "2026-11-10 15:58:44",
+      "level": "info",
+      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat.\n\n\"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
+      "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html"
+    },
+    {
+      "time": "2026-11-10 15:33:59",
+      "level": "info",
+      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\"\n\nIn a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
+      "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html"
+    },
+    {
+      "time": "2026-11-10 12:15:31",
+      "level": "info",
+      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix.\n\nA researcher who goes by forcequit,&nbsp;&nbsp;in collaboration with 0xjohnny,&nbsp;",
+      "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
+    },
     {
       "time": "2026-11-10 11:38:13",
       "level": "info",
@@ -378,78 +450,6 @@
       "source": "The Hacker News",
       "desc": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n  CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
       "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
-    },
-    {
-      "time": "2026-11-04 16:06:43",
-      "level": "info",
-      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\n\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n\nCalled Haiou (meaning Seagull in Chinese), the jailbreak modifies OpenAI Codex's configuration",
-      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html"
-    },
-    {
-      "time": "2026-11-04 14:27:52",
-      "level": "info",
-      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The Russia-linked threat actor known as APT29 is presumed to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\n\"The injected JavaScript code collects browser and device attributes,\" Sekoia researchers Amaury-Jacques Garçon and",
-      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html"
-    },
-    {
-      "time": "2026-11-04 12:07:04",
-      "level": "info",
-      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in&nbsp;an advisory&nbsp;and fixed it in versions 8.1.4.1 and 8.0.5.2.\n\nThe flaw is in Active Storage, the part of Rails that handles file uploads. Some apps store",
-      "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html"
-    },
-    {
-      "time": "2026-11-04 11:46:27",
-      "level": "info",
-      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\n\nDom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project said in an&nbsp;advisory&nbsp;on November 3.\n\nAll Xen versions from 4.6 onward are vulnerable,",
-      "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html"
-    },
-    {
-      "time": "2026-11-04 11:34:20",
-      "level": "info",
-      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.\n\nOne recent case shows what that gap looks like in practice. An employee asked an AI assistant to trigger a mass-email automation. The automation",
-      "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html"
-    },
-    {
-      "time": "2026-11-04 11:24:31",
-      "level": "info",
-      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).\n\nThe campaign, observed starting July 1, 2026, is assessed to have targeted organizations and",
-      "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html"
-    },
-    {
-      "time": "2026-11-04 08:17:11",
-      "level": "info",
-      "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Russian authorities have arrested three suspected members of a threat group known as VasyGrek and dismantled its criminal infrastructure.\n\nAlso known as Fluffy Wolf, the threat actor has a history of targeting Russian and international companies since 2016.\n\nThe Ministry of Internal Affairs of the Russian Federation (MVD) said members of the group are \"suspected of embezzling funds from the",
-      "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html"
-    },
-    {
-      "time": "2026-11-04 07:46:15",
-      "level": "info",
-      "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
-      "cve": "CVE-2026-58868",
-      "source": "The Hacker News",
-      "desc": "A critical Android flaw could allow an attacker to run code on a phone without any user action remotely, Google said in its&nbsp;November security bulletin.\n\nThe flaw, CVE-2026-58868, affects Android 14 through 17. Phones get the fix with security patch level 2026-11-01 or later, which phone makers and carriers send on their own schedules.\n\nAs of November 4, Google's bulletin did not report",
-      "url": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html"
     }
   ]
 }
