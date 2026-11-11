@@ -1,6 +1,24 @@
 {
-  "update_ts": 1794412176,
+  "update_ts": 1794436036,
   "items": [
+    {
+      "time": "2026-11-11 16:12:46",
+      "level": "info",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "cve": "CVE-2026-108186",
+      "source": "The Hacker News",
+      "desc": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
+    },
+    {
+      "time": "2026-11-11 15:34:27",
+      "level": "info",
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.\n\n\"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
+      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
+    },
     {
       "time": "2026-11-11 14:01:00",
       "level": "info",
@@ -432,24 +450,6 @@
       "source": "The Hacker News",
       "desc": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,",
       "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
-    },
-    {
-      "time": "2026-11-05 14:41:10",
-      "level": "info",
-      "title": "ThreatsDay: Apache OFBiz RCE, DreamHost Breach, DeFi Site Hijacks + 17 More Stories",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "How much damage can someone do without breaking much? Quite a lot, it seems. A stolen login can open doors across several systems. A trusted setting can be used to lock people out. Even a simple file copy can reach places it shouldn't. And while new tools are helping find security holes faster, some important systems are still taking months, sometimes over a year, to get patched. Not exactly a",
-      "url": "https://thehackernews.com/2026/11/threatsday-apache-ofbiz-rce-dreamhost.html"
-    },
-    {
-      "time": "2026-11-05 12:25:00",
-      "level": "info",
-      "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business.&nbsp;\n\nEach missing detail creates",
-      "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html"
     }
   ]
 }
