@@ -1,6 +1,78 @@
 {
-  "update_ts": 1794371794,
+  "update_ts": 1794412176,
   "items": [
+    {
+      "time": "2026-11-11 14:01:00",
+      "level": "info",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes.\n\nThe activity has been found to share some",
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
+    },
+    {
+      "time": "2026-11-11 12:19:40",
+      "level": "info",
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
+    },
+    {
+      "time": "2026-11-11 12:01:59",
+      "level": "info",
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\n\nThis helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
+    },
+    {
+      "time": "2026-11-11 12:00:53",
+      "level": "info",
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
+    },
+    {
+      "time": "2026-11-11 08:17:53",
+      "level": "info",
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
+    },
+    {
+      "time": "2026-11-11 07:49:04",
+      "level": "info",
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
+    },
+    {
+      "time": "2026-11-11 07:21:05",
+      "level": "info",
+      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights.\n\nThe team tested the method on",
+      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html"
+    },
+    {
+      "time": "2026-11-11 06:04:02",
+      "level": "info",
+      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+      "cve": "CVE-2026-20320",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
+      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
+    },
     {
       "time": "2026-11-10 19:23:10",
       "level": "info",
@@ -133,7 +205,7 @@
       "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
       "cve": "CVE-2026-125350",
       "source": "The Hacker News",
-      "desc": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: N/A), has been described as a use-after-free bug in the XML component.\n\nUse-after-free bugs typically occur when a program attempts to access a memory location after",
+      "desc": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has&nbsp;been described as a use-after-free bug in the XML component.\n\n\"Use-after-free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker",
       "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
     },
     {
@@ -378,78 +450,6 @@
       "source": "The Hacker News",
       "desc": "A critical finding can move through several security tools and still leave the organization exposed.&nbsp;\n\nThe vulnerability has a severity score, and a ticket has reached the queue. Progress then depends on information the finding may lack: who owns the system, whether attackers can reach it, what protection exists, and how a change could affect the business.&nbsp;\n\nEach missing detail creates",
       "url": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html"
-    },
-    {
-      "time": "2026-11-05 12:08:54",
-      "level": "info",
-      "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "OpenAI on Wednesday detailed a pipeline that employed an upcoming cyber-focused artificial intelligence (AI) model to validate and patch 948 local privilege escalation vulnerabilities in Linux for $1.2 million in API costs.\n\n\"Our prototype identified and analyzed 2,308 candidate Linux kernel findings, dynamically reproduced 1,724 vulnerabilities, and produced 948 local privilege escalation (LPE)",
-      "url": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html"
-    },
-    {
-      "time": "2026-11-05 10:06:19",
-      "level": "info",
-      "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "October 2026 brought another wave of cyber threats targeting US businesses, with attackers exploiting trusted platforms, legitimate authentication processes, and everyday business workflows. For enterprises, these campaigns raise the stakes beyond individual security incidents, increasing the risk of financial losses, data breaches, and costly operational disruption.\n\nBelow, we examine five",
-      "url": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html"
-    },
-    {
-      "time": "2026-11-05 09:13:28",
-      "level": "info",
-      "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Apple has revealed that it plans to start checking public iCloud links for harmful content starting with iOS 27.3, iPadOS 27.3, macOS 27.3, and visionOS 27.3.\n\nThe change specifically applies to scenarios where users share iCloud content, such as photos in iCloud Photos or files in iCloud Drive, by sharing a link and making it accessible to \"Anyone with the link.\"\n\nWhen users choose this option,",
-      "url": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html"
-    },
-    {
-      "time": "2026-11-05 08:42:03",
-      "level": "info",
-      "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The Indian Computer Emergency Response Team (CERT-In) has disclosed that an artificial intelligence (AI)-assisted threat actor it tracks as Crafty Falcon is targeting organizations in the Banking, Financial Services, and Insurance (BFSI) sectors in the country.\n\nDescribing the threat as active and ongoing, the activity involves the use of publicly-available AI-driven offensive security tools",
-      "url": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html"
-    },
-    {
-      "time": "2026-11-05 07:06:33",
-      "level": "info",
-      "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Zyxel GS1900 network switches that received the vendor's earlier fix for an actively exploited flaw are still open to the exploit attackers used, researchers at Binarly found.\n\nThe exploit lets anyone who can reach a switch's web management interface run commands on it without logging in. Zyxel has released new firmware for 10 GS1900 models that closes the hole.\n\nThe earlier fix is the 2.90",
-      "url": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html"
-    },
-    {
-      "time": "2026-11-05 05:17:04",
-      "level": "info",
-      "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-      "cve": "CVE-2024-27834",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a medium-severity security flaw impacting multiple Apple operating systems to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability in question is CVE-2024-27834 (CVSS score: 5.5), a case of improper authentication that could allow an attacker with",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html"
-    },
-    {
-      "time": "2026-11-04 17:00:46",
-      "level": "info",
-      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\n\nThe attacker's code then runs as root, according to advisories that&nbsp;Debian,&nbsp;Ubuntu, and&nbsp;APT's developers&nbsp;published on November 4. The attack needs APT to retry failed downloads, which it does by default from Debian 12 and",
-      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html"
-    },
-    {
-      "time": "2026-11-04 17:00:38",
-      "level": "info",
-      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-      "cve": "CVE-2026-109593",
-      "source": "The Hacker News",
-      "desc": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\n\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n\n\n  CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file read vulnerability that could allow an attacker with network access to read internal GMS files,",
-      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html"
     }
   ]
 }
