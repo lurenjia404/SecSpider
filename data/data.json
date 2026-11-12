@@ -1,6 +1,24 @@
 {
-  "update_ts": 1794436036,
+  "update_ts": 1794461987,
   "items": [
+    {
+      "time": "2026-11-12 05:12:26",
+      "level": "info",
+      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
+      "cve": "CVE-2026-119618",
+      "source": "The Hacker News",
+      "desc": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nOnly servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux.\n\nAn attacker who can reach the",
+      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
+    },
+    {
+      "time": "2026-11-12 04:39:48",
+      "level": "info",
+      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.\n\nIn an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software.\n\n\"Our initial assessment suggests the activity may involve",
+      "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
+    },
     {
       "time": "2026-11-11 16:12:46",
       "level": "info",
@@ -432,24 +450,6 @@
       "source": "The Hacker News",
       "desc": "Two flaws in Barracuda's Email Security Gateway, an email-filtering appliance, can be chained to run commands on it as root, its highest level of access, with no login required.\n\nThe company released patches on Monday, and the security firm watchTowr detailed the attack chain on Thursday.\n\nOne flaw, CVE-2026-116606, is an authorization bypass. An unauthenticated attacker can use it to restore a",
       "url": "https://thehackernews.com/2026/11/experts-demonstrate-barracuda-email.html"
-    },
-    {
-      "time": "2026-11-05 16:42:46",
-      "level": "info",
-      "title": "OpenSSH Issues Emergency Fix for Flaw Letting Long Passwords Bypass SSH Auth on Alpine Linux",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Attackers can log in to accounts that have no password, such as SSH key-only accounts, on some Alpine Linux servers running the standard openssh-server package. They need network access to the server, an account name, and a password between 257 and 1,024 bytes long.\n\nOpenSSH, which rates the flaw critical, released version 10.6p2 today to block it. Alpine has published fixed packages for every",
-      "url": "https://thehackernews.com/2026/11/openssh-issues-emergency-fix-for-flaw.html"
-    },
-    {
-      "time": "2026-11-05 16:42:32",
-      "level": "info",
-      "title": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of a now-patched vulnerability that could be exploited to bypass Lockdown Mode protections in OpenAI ChatGPT.\n\nLockdown Mode was introduced by the artificial intelligence (AI) company in June 2026 as an optional setting to minimize data exfiltration risks arising from prompt injections.\n\n\"The flaw could enable silent chat data theft, phishing,",
-      "url": "https://thehackernews.com/2026/11/researchers-bypass-chatgpt-lockdown.html"
     }
   ]
 }
