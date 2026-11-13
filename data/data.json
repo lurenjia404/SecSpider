@@ -1,6 +1,69 @@
 {
-  "update_ts": 1794570624,
+  "update_ts": 1794597041,
   "items": [
+    {
+      "time": "2026-11-13 16:53:08",
+      "level": "info",
+      "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+      "cve": "CVE-2026-6460",
+      "source": "The Hacker News",
+      "desc": "A type confusion flaw in PostgreSQL lets a database user who can create objects run code on the server. Updates released yesterday fix it, along with 51 other security flaws. Full protection from this flaw also requires rebuilding any C-language extensions installed on the server.\n\nThe flaw, tracked as CVE-2026-6460, has a CVSS score of 8.8. Any code run this way has the rights of the operating",
+      "url": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html"
+    },
+    {
+      "time": "2026-11-13 15:27:05",
+      "level": "info",
+      "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Two attacks made public this week allow a malicious host to read data inside AMD SEV-SNP-protected virtual machines (VMs), which are built to keep the server's operator out.\n\nOne of them, Mior, can also modify a VM's memory and fake the signed report confirming which software it runs. Both need control of the server's hypervisor, and Mior also needs control of the server's BIOS. Researchers",
+      "url": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html"
+    },
+    {
+      "time": "2026-11-13 14:28:58",
+      "level": "info",
+      "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The U.S. Federal Bureau of Investigation (FBI) has established that threat actors tied to the Democratic People's Republic of Korea (DPRK aka North Korea) have stolen more than $400 million worth of cryptocurrency as part of a social engineering scheme codenamed FaceStealer in the last 18 months.\n\nAs part of a coordinated set of actions announced by the U.S. government, the cloud-based",
+      "url": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html"
+    },
+    {
+      "time": "2026-11-13 13:54:20",
+      "level": "info",
+      "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Three Trezor Safe 5 wallets bought from the reseller CryptoBilis contain an implant, an extra circuit board that can copy their recovery phrases, hardware wallet maker Trezor said yesterday.\n\nThe implant reads the phrase from the wallet's screen and sends it over the mobile network to a server controlled by the attackers. The company examined one of the wallets in its lab, identified the other",
+      "url": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html"
+    },
+    {
+      "time": "2026-11-13 11:52:31",
+      "level": "info",
+      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.\n\nThat kind of scenario raises a response question: what does “stop the agent” actually mean? A",
+      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html"
+    },
+    {
+      "time": "2026-11-13 11:10:40",
+      "level": "info",
+      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
+      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
+    },
+    {
+      "time": "2026-11-13 10:55:03",
+      "level": "info",
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\nPolice also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).\n\nGootloader is a loader:",
+      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
+    },
     {
       "time": "2026-11-13 08:05:49",
       "level": "info",
@@ -387,69 +450,6 @@
       "source": "The Hacker News",
       "desc": "Google on Monday released updates to patch nine security vulnerabilities, including one that has come under active exploitation in the wild.\n\nThe high-severity vulnerability, assigned the CVE identifier CVE-2026-125350 (CVSS score: 8.8), has&nbsp;been described as a use-after-free bug in the XML component.\n\n\"Use-after-free in XML in Google Chrome prior to 157.0.8103.50 allowed a remote attacker",
       "url": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html"
-    },
-    {
-      "time": "2026-11-10 06:44:36",
-      "level": "info",
-      "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "N-able said it has taken N-central Hosted Environments offline and is urging on-premises customers to shut down their servers until further notice following the public disclosure of over 30 vulnerabilities collectively tracked as Able2Shell.\n\n\"As a precautionary measure, we are temporarily taking our Hosted N-central environment offline while we take the necessary actions to secure the",
-      "url": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html"
-    },
-    {
-      "time": "2026-11-10 06:31:42",
-      "level": "info",
-      "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-      "cve": "CVE-2026-123218",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added four security flaws impacting GPUStack, SignalWire FreeSwitch, OpenBSD OpenSSH, and IBM Aspera Faspex to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-123218 (CVSS score: 9.8) - An incorrect authorization vulnerability",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html"
-    },
-    {
-      "time": "2026-11-09 17:51:21",
-      "level": "info",
-      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today.\n\nThe attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attacker got those credentials has not been disclosed.\n\nQubole, a data lake platform owned by Idera,",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html"
-    },
-    {
-      "time": "2026-11-09 17:36:28",
-      "level": "info",
-      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2.\n\nBoth releases download and run code built to steal the wallet key that Swarm Desktop keeps for its node, along with the stored password that unlocks it. The code is also built to install a backdoor",
-      "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html"
-    },
-    {
-      "time": "2026-11-09 14:31:29",
-      "level": "info",
-      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT.\n\n\"PapRAT has both C++ and Rust implementations,\" Fortinet FortiGuard Labs researcher Cara Lin said. \"Its capabilities include command execution, file",
-      "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html"
-    },
-    {
-      "time": "2026-11-09 13:28:25",
-      "level": "info",
-      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack.\n\nElsewhere, attackers are hiding inside normal web traffic, stealing credentials from network devices, and finding new uses for exposed",
-      "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html"
-    },
-    {
-      "time": "2026-11-09 11:27:53",
-      "level": "info",
-      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine.\n\nBoth apps signed customers in through ForgeRock, an identity platform now part of Ping Identity, and on those servers the researchers reached an",
-      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html"
     }
   ]
 }
