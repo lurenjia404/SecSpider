@@ -1,6 +1,24 @@
 {
-  "update_ts": 1794717726,
+  "update_ts": 1794755834,
   "items": [
+    {
+      "time": "2026-11-15 11:27:31",
+      "level": "info",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.\n\nThe company has 60 days to",
+      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
+    },
+    {
+      "time": "2026-11-15 08:22:04",
+      "level": "info",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
+    },
     {
       "time": "2026-11-14 12:38:35",
       "level": "info",
@@ -432,24 +450,6 @@
       "source": "The Hacker News",
       "desc": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score.\n\nThree are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server.\n\nThe flaws in the Web",
       "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html"
-    },
-    {
-      "time": "2026-11-10 09:08:20",
-      "level": "info",
-      "title": "France Blames Iran for Sabotage Attack on Refrigeration Controllers at About 700 Retail Sites",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An October cyberattack on refrigeration controllers at about 700 French retail sites was carried out by a cyber unit of Iran's Islamic Revolutionary Guard Corps (IRGC), the French government said yesterday.\n\nThe attackers broke into controllers on the night of October 11 and changed their defrost settings to high temperatures. That caused food losses and, in at least 15 cases, fires.\n\nThe unit",
-      "url": "https://thehackernews.com/2026/11/france-blames-iran-for-sabotage-attack.html"
-    },
-    {
-      "time": "2026-11-10 08:16:14",
-      "level": "info",
-      "title": "Anthropic's Claude Fable 5.2 Beats GPT-6 Cyber in Multi-Stage Cyberattack Benchmark",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Anthropic on Monday released Claude Fable 5.2 and Claude Mythos 5.2 models, which it said exhibit improvements in coding, reasoning, and vision.\n\nDuring pre-release training, the large language models (LLMs) helped its engineers \"complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made",
-      "url": "https://thehackernews.com/2026/11/anthropics-claude-fable-52-beats-gpt-6.html"
     }
   ]
 }
