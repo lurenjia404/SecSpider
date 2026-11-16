@@ -1,6 +1,69 @@
 {
-  "update_ts": 1794803935,
+  "update_ts": 1794851613,
   "items": [
+    {
+      "time": "2026-11-16 14:00:00",
+      "level": "info",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity.\n\nIn tandem, threat actors are leveraging the power and capabilities of large language models (LLMs)",
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+    },
+    {
+      "time": "2026-11-16 13:27:20",
+      "level": "info",
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job.\n\nMeanwhile, AI is making bug hunting faster, old flaws are still paying off, and attackers keep finding easy ways in. Some attacks take real skill. Others barely",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
+    },
+    {
+      "time": "2026-11-16 12:34:21",
+      "level": "info",
+      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\n\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.\n\nGovernment cybersecurity agencies in Belgium, Ireland and Germany told operators this week to",
+      "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
+    },
+    {
+      "time": "2026-11-16 12:33:18",
+      "level": "info",
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\n\"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kaspersky said in an analysis published today.\n\n\"The '7z.dll' file was a patched version of the",
+      "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html"
+    },
+    {
+      "time": "2026-11-16 09:32:57",
+      "level": "info",
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\n\nCentral to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives commands over the TOR anonymity network to manage CPU and GPU miners. The activity was observed in",
+      "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html"
+    },
+    {
+      "time": "2026-11-16 07:34:21",
+      "level": "info",
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\n\nThe records, which Amazon's threat intelligence team captured with decoy servers, describe stolen keys being used to run the AI models that powered the search for more keys.\n\nThe team said this",
+      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html"
+    },
+    {
+      "time": "2026-11-16 06:53:34",
+      "level": "info",
+      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\n\nThe activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer in June 2025, has been attributed to a threat actor named BO Team (aka Black Owl, Hoody Hyena,",
+      "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+    },
     {
       "time": "2026-11-15 11:27:31",
       "level": "info",
@@ -387,69 +450,6 @@
       "source": "The Hacker News",
       "desc": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
       "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
-    },
-    {
-      "time": "2026-11-10 15:58:44",
-      "level": "info",
-      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat.\n\n\"The campaign uses Portuguese and Spanish lures that resemble court notifications, fiscalía notices, tutela proceedings, and",
-      "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html"
-    },
-    {
-      "time": "2026-11-10 15:33:59",
-      "level": "info",
-      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month&nbsp; uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\"\n\nIn a notice published on October 10, 2026, the company said it detected unauthorized use of internal Fireworks",
-      "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html"
-    },
-    {
-      "time": "2026-11-10 12:15:31",
-      "level": "info",
-      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a fix.\n\nA researcher who goes by forcequit,&nbsp;&nbsp;in collaboration with 0xjohnny,&nbsp;",
-      "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html"
-    },
-    {
-      "time": "2026-11-10 11:38:13",
-      "level": "info",
-      "title": "Beyond the Alert: The Case for Rich Network Data",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "At some point your security will fail. This isn’t pessimism. It’s not because your team and tools aren’t sophisticated enough. It’s the reason we have detections in the first place. And, it’s why once we accept that prevention has its limits, we arrive at an interdiction strategy: finding and disrupting what got in.\n\nAfter the alert\n\nThe alert tells you something happened. However, gaining",
-      "url": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html"
-    },
-    {
-      "time": "2026-11-10 10:16:51",
-      "level": "info",
-      "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An iMessage flaw could let a remote attacker join a group chat and receive its messages, Apple said yesterday, and it released updates to fix it. The updates also fix a separate iMessage flaw that could let someone added to a group access messages sent before they joined.\n\nAs of today, other updates released yesterday for the iPhone XS, XS Max and XR, the iPad (7th generation) and some Apple",
-      "url": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html"
-    },
-    {
-      "time": "2026-11-10 10:07:29",
-      "level": "info",
-      "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The Russia-aligned state-sponsored threat actor known as Turla (aka Snake) is wielding a previously undocumented cyber espionage toolset called Cereal that's used to break into victims' Microsoft Exchange servers with an aim to surreptitiously collect emails.\n\nAccording to an ESET report shared with The Hacker News ahead of publication, the sophisticated and modular tool is designed for",
-      "url": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html"
-    },
-    {
-      "time": "2026-11-10 10:02:40",
-      "level": "info",
-      "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Four flaws that attackers could exploit without logging in were fixed today as part of SAP's monthly Security Patch Day—the vendor rates all four 10.0, the maximum CVSS score.\n\nThree are in the SAP NetWeaver application server, the software SAP systems run on, and one is in the Web Dispatcher, which receives web requests from the internet and passes them on to that server.\n\nThe flaws in the Web",
-      "url": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html"
     }
   ]
 }
