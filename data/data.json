@@ -1,6 +1,69 @@
 {
-  "update_ts": 1794883513,
+  "update_ts": 1794919490,
   "items": [
+    {
+      "time": "2026-11-17 12:25:06",
+      "level": "info",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\n\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicious code that looked like it came from GitHub's official checkout tool. They even labeled it a",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
+    },
+    {
+      "time": "2026-11-17 12:14:36",
+      "level": "info",
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\n\nThe first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in attacks.\n\nNik Tsytsarkin of Meta Red Team X published the technical details last week. Mustafa",
+      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html"
+    },
+    {
+      "time": "2026-11-17 11:20:18",
+      "level": "info",
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).\n\nThe activity has been codenamed Operation ShadowCloud by Kaspersky. The Russian cybersecurity company said it identified the campaign in early 2026.",
+      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html"
+    },
+    {
+      "time": "2026-11-17 11:07:31",
+      "level": "info",
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.\n\nThe changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its APIs: Device Control and Data Access, and Full Disk Access.\n\n\"Before granting an app such",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html"
+    },
+    {
+      "time": "2026-11-17 07:12:13",
+      "level": "info",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.\n\nVisitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday, according to Report URI, a firm that monitors the scripts websites run.\n\nThe code was built to",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html"
+    },
+    {
+      "time": "2026-11-17 06:29:27",
+      "level": "info",
+      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+      "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html"
+    },
+    {
+      "time": "2026-11-17 05:00:34",
+      "level": "info",
+      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "N-able has released a new security update to address additional critical security flaws impacting N-central.\n\nDescribing N-central 2026.4 Hotfix 3 as a critical security update, the company said it includes a number of security patches and fixes that enhance the security of the Remote Monitoring and Management (RMM) and Unified Endpoint Management (UEM) platform.\n\n\"HF3 builds on the",
+      "url": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html"
+    },
     {
       "time": "2026-11-16 14:00:00",
       "level": "info",
@@ -387,69 +450,6 @@
       "source": "The Hacker News",
       "desc": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database",
       "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
-    },
-    {
-      "time": "2026-11-11 07:21:05",
-      "level": "info",
-      "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An AI model can be given a hidden backdoor by editing fewer than 10 of its rarely used neurons, without retraining the model, Microsoft researchers have shown.\n\nWhen a chosen trigger appears, the model outputs an attacker's command, which an agent using that model would run with the agent's own permissions. The attacker must be able to change the model's weights.\n\nThe team tested the method on",
-      "url": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html"
-    },
-    {
-      "time": "2026-11-11 06:04:02",
-      "level": "info",
-      "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-      "cve": "CVE-2026-20320",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) Tuesday added two security flaws impacting Cisco BroadWorks and Openwave Messaging Webtop Media Transcoder to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nDetails of the vulnerabilities are below -\n\n\n  CVE-2026-20320 (CVSS score: 7.5) - An improper restriction of XML external entity",
-      "url": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html"
-    },
-    {
-      "time": "2026-11-10 19:23:10",
-      "level": "info",
-      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-      "cve": "CVE-2026-111760",
-      "source": "The Hacker News",
-      "desc": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\n\nThe flaw, tracked as CVE-2026-111760, is an integer truncation in how Git handles its index. An",
-      "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html"
-    },
-    {
-      "time": "2026-11-10 19:19:39",
-      "level": "info",
-      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\n\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company said earlier this week. That mode processes requests inside a trusted execution environment (TEE",
-      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html"
-    },
-    {
-      "time": "2026-11-10 18:12:21",
-      "level": "info",
-      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\n\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\n\"REST cookie parsing turns authenticationToken=j:%7B%7D into {},\" Vates VMS said in an alert. \"REST authentication passes that object to the",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html"
-    },
-    {
-      "time": "2026-11-10 17:43:23",
-      "level": "info",
-      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the past year.\n\nCheck Point Research is tracking the clusters under the names SilentDelivery,",
-      "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html"
-    },
-    {
-      "time": "2026-11-10 16:00:55",
-      "level": "info",
-      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-      "cve": "CVE-2026-105133",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\n\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to bypass authentication and execute arbitrary commands on affected systems. Patches for the two",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html"
     }
   ]
 }
