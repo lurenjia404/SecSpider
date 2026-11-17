@@ -1,6 +1,33 @@
 {
-  "update_ts": 1794919490,
+  "update_ts": 1794957557,
   "items": [
+    {
+      "time": "2026-11-17 19:34:20",
+      "level": "info",
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\n\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researchers ran their demonstration on a Telegram test server, because only approved bots can send",
+      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html"
+    },
+    {
+      "time": "2026-11-17 15:17:36",
+      "level": "info",
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "cve": "CVE-2026-114938",
+      "source": "The Hacker News",
+      "desc": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\n\nThe 11 vulnerabilities carry a maximum CVSS 3.1 severity score of 8.1, according to Oracle's advance security notice.",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+    },
+    {
+      "time": "2026-11-17 15:17:28",
+      "level": "info",
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.\n\n\"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers into executing an infostealer themselves,\" Stormshield said in a deep-dive technical report",
+      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
+    },
     {
       "time": "2026-11-17 12:25:06",
       "level": "info",
@@ -52,7 +79,7 @@
       "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
       "cve": "-",
       "source": "The Hacker News",
-      "desc": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled, and",
+      "desc": "ConnectWise on Monday said it completed its investigation into unauthorized access targeting partner ScreenConnect environments, and recommended customers to ensure that the technician client is running version 26.6.5 or later.\n\nThe company said additional activity targeting on-premises environments continues to be reported where the identified third-party extensions remain enabled and",
       "url": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html"
     },
     {
@@ -423,33 +450,6 @@
       "source": "The Hacker News",
       "desc": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\n\nThis helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
       "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
-    },
-    {
-      "time": "2026-11-11 12:00:53",
-      "level": "info",
-      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\n\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The 8 intermediate CAs compromised in October had a different problem: a single line in the script",
-      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html"
-    },
-    {
-      "time": "2026-11-11 08:17:53",
-      "level": "info",
-      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\n\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, and 27 in SharePoint Server. The patches also include 165 non-Microsoft-issued CVE identifiers.",
-      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html"
-    },
-    {
-      "time": "2026-11-11 07:49:04",
-      "level": "info",
-      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\n\nThe company builds and runs apps for its customers and stores their secrets, such as API keys and database",
-      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html"
     }
   ]
 }
