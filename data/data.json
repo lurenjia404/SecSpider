@@ -1,14 +1,86 @@
 {
-  "update_ts": 1794980996,
+  "update_ts": 1795020933,
   "items": [
     {
-      "time": "2026-11-18 04:27:41",
+      "time": "2026-11-18 14:11:28",
       "level": "info",
-      "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few",
+      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
+    },
+    {
+      "time": "2026-11-18 12:28:30",
+      "level": "info",
+      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say.\n\nThat leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way.\n\nBoth PINs were set by the",
+      "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
+    },
+    {
+      "time": "2026-11-18 12:15:00",
+      "level": "info",
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "TL;DR\n\n\n  Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day.\n  AI pentesting vendors aren't interchangeable. Most look convincing in a demo. The gaps show up in your logged-in flows, your coverage, and your production safety.\n  Make",
+      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html"
+    },
+    {
+      "time": "2026-11-18 11:55:49",
+      "level": "info",
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
       "cve": "CVE-2026-114938",
       "source": "The Hacker News",
       "desc": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\n\nThe flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature.\n\nTracked as",
       "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+    },
+    {
+      "time": "2026-11-18 11:03:57",
+      "level": "info",
+      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with both.\n\nAI pentesting has emerged as a way to run in-depth tests whenever teams need them, instead of waiting for the",
+      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html"
+    },
+    {
+      "time": "2026-11-18 08:24:31",
+      "level": "info",
+      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
+      "cve": "CVE-2026-115731",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical security flaw impacting Perforce Puppet, an enterprise infrastructure-as-code (IaC) and configuration management platform, to its Known Exploited Vulnerabilities (KEV) catalog, citing reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-115731 (CVSS score: 9.4), is a case of",
+      "url": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html"
+    },
+    {
+      "time": "2026-11-18 08:24:23",
+      "level": "info",
+      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
+      "cve": "CVE-2026-114938",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has urged organizations to immediately patch a newly disclosed critical security flaw impacting Oracle Java.\n\nThe flaw, tracked as CVE-2026-114938 (CVSS score: 8.1), refers to a case of out-of-bounds write that can lead to denial-of-service (DoS) or remote code execution under certain conditions.\n\n\"This critical memory-corruption",
+      "url": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
+    },
+    {
+      "time": "2026-11-18 06:45:26",
+      "level": "info",
+      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Threat actors have compromised Microsoft's agent-framework package to push a credential stealer, according to reports from Aikido, Chainguard, Endor Labs, OX Security, SafeDep, Socket, StepSecurity, and Google-owned Wiz.\n\nThe malicious versions, 1.26.1 and 1.26.2, were published 33 minutes apart on November 17, 2026, and are designed to run a credential stealer on every Python start. As of",
+      "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html"
+    },
+    {
+      "time": "2026-11-18 05:58:04",
+      "level": "info",
+      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The Russia-linked cyber espionage group known as Cold Relic (formerly COLDRIVER and UNC4057) has been observed weaponizing a single cloud compromise into a launchpad for a series of linked intrusions resulting in third-party compromise.\n\nGoogle's Mandiant and Threat Intelligence Group (GTIG) said it investigated a 2026 compromise at a U.S.-based organization in which the adversary leveraged",
+      "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html"
     },
     {
       "time": "2026-11-17 19:34:20",
@@ -378,78 +450,6 @@
       "source": "The Hacker News",
       "desc": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica",
       "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html"
-    },
-    {
-      "time": "2026-11-12 08:20:37",
-      "level": "info",
-      "title": "Node.js Fixes 16 Flaws, Including HTTP/2 Bugs That Crash Servers and Leak Other Connections' Data",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "A flaw fixed in Node.js this week lets unauthenticated clients crash servers that use the runtime's built-in HTTP/2 support on the 24.x and 26.x release lines. A second HTTP/2 flaw can cause a server to send a client pieces of its memory, including responses intended for other connections.\n\nFixed versions were released for all three supported lines: 22.23.5, 24.22.3, and 26.13.1.\n\nThe crash",
-      "url": "https://thehackernews.com/2026/11/nodejs-fixes-16-flaws-including-http2.html"
-    },
-    {
-      "time": "2026-11-12 06:42:47",
-      "level": "info",
-      "title": "Attacker Used 4,837 Hijacked GitHub Accounts to Run a CI Secret Stealer in 1,806+ Repositories",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Starting Tuesday, an attacker used stolen credentials for 4,837 GitHub accounts to plant a secret stealer in repositories those accounts could write to, according to Aikido Security, a security software company.\n\nThe stealer is built to take the secrets and cloud credentials that a repository's CI workflows can reach. It ran in at least 1,806 repositories, where the attacker has likely collected",
-      "url": "https://thehackernews.com/2026/11/4837-hijacked-github-accounts-ran-ci.html"
-    },
-    {
-      "time": "2026-11-12 05:12:26",
-      "level": "info",
-      "title": "Critical Apache HTTP/2 Flaw Could Let Unauthenticated Attackers Execute Code Remotely",
-      "cve": "CVE-2026-119618",
-      "source": "The Hacker News",
-      "desc": "A critical flaw in Apache HTTP Server's HTTP/2 module, mod_http2, can let a remote attacker run code on the server. Tracked as CVE-2026-119618, it affects versions 2.4.55 through 2.4.70 and is fixed in version 2.4.71, released yesterday.\n\nOnly servers with HTTP/2 enabled are affected, according to Red Hat, which ships the server as part of Red Hat Enterprise Linux.\n\nAn attacker who can reach the",
-      "url": "https://thehackernews.com/2026/11/critical-apache-http2-flaw-could-let.html"
-    },
-    {
-      "time": "2026-11-12 04:39:48",
-      "level": "info",
-      "title": "ScreenConnect Attacks Target at Least 288 Endpoints Across 48 Organizations With Rogue Clients",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "ConnectWise has taken the precautionary step of disabling five third-party extensions in partner environments following reports of unauthorized access.\n\nIn an advisory posted on its site, the company said there is no evidence that the incident involves a compromise of its infrastructure or a vulnerability in the ScreenConnect software.\n\n\"Our initial assessment suggests the activity may involve",
-      "url": "https://thehackernews.com/2026/11/screenconnect-attacks-target-at-least.html"
-    },
-    {
-      "time": "2026-11-11 16:12:46",
-      "level": "info",
-      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
-      "cve": "CVE-2026-108186",
-      "source": "The Hacker News",
-      "desc": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\n\nThe vulnerabilities are listed below -\n\n\n  CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vulnerability that could allow an unauthenticated user to conduct an escalation of privilege via",
-      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html"
-    },
-    {
-      "time": "2026-11-11 15:34:27",
-      "level": "info",
-      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.\n\n\"In several recently observed intrusions, Alibaba Cloud systems hosting AntiFox interfaces were associated with confirmed malicious actions against",
-      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html"
-    },
-    {
-      "time": "2026-11-11 14:01:00",
-      "level": "info",
-      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\n\nCynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers within a narrow window of just over three minutes.\n\nThe activity has been found to share some",
-      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html"
-    },
-    {
-      "time": "2026-11-11 12:19:40",
-      "level": "info",
-      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
-      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
     }
   ]
 }
