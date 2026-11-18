@@ -1,6 +1,15 @@
 {
-  "update_ts": 1794957557,
+  "update_ts": 1794980996,
   "items": [
+    {
+      "time": "2026-11-18 04:27:41",
+      "level": "info",
+      "title": "Java4Shell (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak on Java 17+ AVX-512 VBMI Servers",
+      "cve": "CVE-2026-114938",
+      "source": "The Hacker News",
+      "desc": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\n\nThe flaw is present in Java 17.0.6 and later, and the vulnerable code runs only on x86-64 Intel and AMD chips that support the AVX-512 VBMI feature.\n\nTracked as",
+      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+    },
     {
       "time": "2026-11-17 19:34:20",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\n\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps were games, landing pages, and calculators, but about 1 in 10 contained internal business or",
       "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html"
-    },
-    {
-      "time": "2026-11-11 12:01:59",
-      "level": "info",
-      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\n\nThis helped us think through how such agents should be defended. When a browser agent acts inside a user’s authenticated",
-      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html"
     }
   ]
 }
