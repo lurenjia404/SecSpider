@@ -1,6 +1,33 @@
 {
-  "update_ts": 1795020933,
+  "update_ts": 1795052513,
   "items": [
+    {
+      "time": "2026-11-18 18:31:17",
+      "level": "info",
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "cve": "CVE-2026-123007",
+      "source": "The Hacker News",
+      "desc": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today.\n\nF5, the company behind NGINX, says attackers can run code where",
+      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
+    },
+    {
+      "time": "2026-11-18 18:15:39",
+      "level": "info",
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent.\n\nF5, which makes BIG-IP, disclosed the flaws today and says they",
+      "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html"
+    },
+    {
+      "time": "2026-11-18 17:10:45",
+      "level": "info",
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "cve": "CVE-2026-129448",
+      "source": "The Hacker News",
+      "desc": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution.\n\n\"Deserialization of Untrusted",
+      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
+    },
     {
       "time": "2026-11-18 14:11:28",
       "level": "info",
@@ -423,33 +450,6 @@
       "source": "The Hacker News",
       "desc": "N-able on Thursday said it's investigating a new public disclosure containing claims of additional vulnerabilities in on-premise versions of N-central running version 2026.4.1 HF2.\n\n\"Based on our initial review, the server issue described depends on a non-default configuration in which the Legacy API is turned on and exposed to the public internet,\" N-able said in a new advisory. \"Legacy API is",
       "url": "https://thehackernews.com/2026/11/new-n-central-exploits-work-against.html"
-    },
-    {
-      "time": "2026-11-12 11:51:31",
-      "level": "info",
-      "title": "Calendar Invites and Live Proxies: Inside a Google Session Hijacking Campaign",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Since mid-August 2026, a phishing operation has been stealing live Google sessions from corporate users. Every check defenders normally lean on to judge a link came back clean, and the operator designed it that way on purpose.\n\nThe Threat Research team at Material Security spotted the campaign and has since taken down hundreds of attacker domains in an effort the team calls Operation CloudFire.",
-      "url": "https://thehackernews.com/2026/11/calendar-invites-and-live-proxies.html"
-    },
-    {
-      "time": "2026-11-12 11:33:15",
-      "level": "info",
-      "title": "PTC Patches Critical Windchill and FlexPLM Flaw That Could Enable Remote Code Execution",
-      "cve": "CVE-2026-126325",
-      "source": "The Hacker News",
-      "desc": "PTC has released patches for a new critical vulnerability impacting Windchill and FlexPLM software that, if successfully exploited, could result in remote code execution.\n\nThe security flaw, tracked as CVE-2026-126325, carries a CVSS v4 score of 9.2 out of a maximum of 10.0.\n\nIt has been described as a case of improper input validation and deserialization of untrusted data that could result in",
-      "url": "https://thehackernews.com/2026/11/ptc-patches-critical-windchill-and.html"
-    },
-    {
-      "time": "2026-11-12 09:25:00",
-      "level": "info",
-      "title": "Critical Pre-Auth MongoDB Flaw (CVE-2026-118383) Can Crash Lagging Servers on Failover",
-      "cve": "CVE-2026-118383",
-      "source": "The Hacker News",
-      "desc": "A critical flaw in MongoDB Server allows an unauthenticated attacker to send two requests that trigger a crash on the database server. The crash occurs only if that server is later chosen to take over as the main server while it still lacks some recent changes.\n\nMongoDB, the company that makes the database, released fixed versions earlier this week.\n\nThe affected servers are members of a replica",
-      "url": "https://thehackernews.com/2026/11/critical-pre-auth-mongodb-flaw-cve-2026.html"
     }
   ]
 }
