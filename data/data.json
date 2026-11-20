@@ -1,6 +1,15 @@
 {
-  "update_ts": 1795128813,
+  "update_ts": 1795153063,
   "items": [
+    {
+      "time": "2026-11-20 05:30:01",
+      "level": "info",
+      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
+      "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
+    },
     {
       "time": "2026-11-19 18:47:58",
       "level": "info",
@@ -31,7 +40,7 @@
     {
       "time": "2026-11-19 15:11:06",
       "level": "info",
-      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
       "cve": "-",
       "source": "The Hacker News",
       "desc": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\n\nFixed versions are out for all supported branches, and the company lists no workaround. vCenter is the central console for managing an organization's ESX hosts and virtual machines.\n\nThe",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan.\n\nEnea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
       "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html"
-    },
-    {
-      "time": "2026-11-13 10:55:03",
-      "level": "info",
-      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks.\n\nPolice also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA).\n\nGootloader is a loader:",
-      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html"
     }
   ]
 }
