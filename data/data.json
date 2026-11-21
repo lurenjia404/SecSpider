@@ -1,6 +1,24 @@
 {
-  "update_ts": 1795192816,
+  "update_ts": 1795223044,
   "items": [
+    {
+      "time": "2026-11-20 17:57:20",
+      "level": "info",
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "cve": "CVE-2026-23871",
+      "source": "The Hacker News",
+      "desc": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages.\n\nThe vulnerability, tracked as CVE-2026-23871, has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp Business for Android before 2.26.17.4.\n\nThe issue could",
+      "url": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+    },
+    {
+      "time": "2026-11-20 16:58:16",
+      "level": "info",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan.\n\n\"Bazuka is a full malware framework,",
+      "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
+    },
     {
       "time": "2026-11-20 12:20:00",
       "level": "info",
@@ -432,24 +450,6 @@
       "source": "The Hacker News",
       "desc": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\n\nThe Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' photos, videos, and related metadata without their explicit consent.\n\nThe company has 60 days to",
       "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html"
-    },
-    {
-      "time": "2026-11-15 08:22:04",
-      "level": "info",
-      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\n\"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update. \"The key was exposed by Fireworks, and the attacker used it to copy data from a read-only",
-      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html"
-    },
-    {
-      "time": "2026-11-14 12:38:35",
-      "level": "info",
-      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-      "cve": "CVE-2026-114713",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\n\nThe vulnerability, tracked as CVE-2026-114713 (CVSS score: 8.6), is a case of improper neutralization of delimiters",
-      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html"
     }
   ]
 }
