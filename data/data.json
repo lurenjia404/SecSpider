@@ -1,6 +1,87 @@
 {
-  "update_ts": 1795576893,
+  "update_ts": 1795614719,
   "items": [
+    {
+      "time": "2026-11-25 12:48:54",
+      "level": "info",
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "cve": "CVE-2026-120705",
+      "source": "The Hacker News",
+      "desc": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\n\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n\n\n  CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could enable an attacker to access local text files readable by the GeoServer process or fetch",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html"
+    },
+    {
+      "time": "2026-11-25 12:30:08",
+      "level": "info",
+      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline.\n\nThe bureau collects suspicious activity reports and other Bank Secrecy Act (BSA) filings from banks and other financial",
+      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+    },
+    {
+      "time": "2026-11-25 11:51:48",
+      "level": "info",
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "TL;DR\n\n\n  More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.\n  Validity-only triage misses 46% of critical secrets: Prioritize by impact instead, weighing what a credential can access and whether it leaked publicly, and update the",
+      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html"
+    },
+    {
+      "time": "2026-11-25 11:23:26",
+      "level": "info",
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "cve": "CVE-2026-132165",
+      "source": "The Hacker News",
+      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\n\nThe vulnerability, tracked as CVE-2026-132165 aka Fail2Install (CVSS score: 9.8), is a case of remote code execution (RCE) impacting Drupal core.\n\n\"Drupal Core",
+      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html"
+    },
+    {
+      "time": "2026-11-25 10:43:07",
+      "level": "info",
+      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday.\n\nAbdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October 9, 2026, for allegedly bugging the artificial intelligence (AI) company's offices with the aim",
+      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html"
+    },
+    {
+      "time": "2026-11-25 09:06:59",
+      "level": "info",
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\n\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had every server on a patched build within about 15 minutes of the first malicious request.\n\nChecks",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html"
+    },
+    {
+      "time": "2026-11-25 06:50:19",
+      "level": "info",
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world.\n\nThe intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13), is assessed to have targeted organizations in the financial services, energy, government,",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html"
+    },
+    {
+      "time": "2026-11-25 06:37:06",
+      "level": "info",
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts.\n\nThe attacks have targeted financial services, healthcare, and legal services located in the U.S., the U.K., and Australia. Other targets include construction,",
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html"
+    },
+    {
+      "time": "2026-11-25 06:21:12",
+      "level": "info",
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "WordPress has removed six WordPress plugins developed by WP Connect after they were backdoored on November 22, 2026, to enable arbitrary code execution on sites that have them installed, following a suspected compromise of the developer's account.\n\nThe WordPress plugins team has proactively detected and blocked the threat before it could be officially released. Visiting each plugin listing now",
+      "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
+    },
     {
       "time": "2026-11-24 16:54:07",
       "level": "info",
@@ -369,87 +450,6 @@
       "source": "The Hacker News",
       "desc": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\n\"We have taken steps to mitigate the threat and are continuing to harden our services to reduce the risk of recurrence,\" N-able said.\n\n\"The investigation is ongoing, but at this time we",
       "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
-    },
-    {
-      "time": "2026-11-19 08:42:11",
-      "level": "info",
-      "title": "Ruby Ships Fixes for 7 Flaws, Including Critical Ruby2Shell, Said to Hit Default Rails Apps Pre-Auth",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\n\"We are aware of PoCs that prove some of them can be used to trigger remote code execution,\" the maintainers said.\n\nThe project released fixed versions",
-      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html"
-    },
-    {
-      "time": "2026-11-19 08:14:00",
-      "level": "info",
-      "title": "Researcher Demonstrates Database RCE Exploits Affecting PostgreSQL, MySQL and Oracle",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Low-privilege database accounts that cannot read a single application table can still be used to run code on the database server itself, a researcher has shown, by reaching memory-corruption bugs in the engine code behind ordinary SQL.\n\nThe exploits, published yesterday, are the researcher's proofs of concept against PostgreSQL, MySQL and ClickHouse, plus a separate Oracle chain that needs no",
-      "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html"
-    },
-    {
-      "time": "2026-11-19 08:00:00",
-      "level": "info",
-      "title": "CISA Warns of 4 Exploited Flaws Linked to Ransomware, Cryptomining, and LLMjacking Attacks",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added four vulnerabilities impacting Synology DiskStation Manager (DSM), BerriAI LiteLLM, Apache Axis, and Vanderbilt University Research Electronic Data Capture (REDCap) to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\n\nThe vulnerabilities are listed below -",
-      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html"
-    },
-    {
-      "time": "2026-11-19 04:33:46",
-      "level": "info",
-      "title": "PHP Warns of Critical Security Flaws Affecting All Supported Versions, Fixes Coming November 19",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The maintainers of the PHP programming language on Wednesday issued an advisory announcing an upcoming security release that addresses critical flaws.\n\nThe release is scheduled for November 19, 2026, between 2 and 2:30 p.m. UTC.\n\n\"These releases are part of PHP's regular four-week release cycle and will address security vulnerabilities affecting all supported PHP versions,\" the maintainers said.",
-      "url": "https://thehackernews.com/2026/11/php-warns-of-critical-security-flaws.html"
-    },
-    {
-      "time": "2026-11-18 18:31:17",
-      "level": "info",
-      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
-      "cve": "CVE-2026-123007",
-      "source": "The Hacker News",
-      "desc": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\n\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.31.9 and 1.30.7 came out today.\n\nF5, the company behind NGINX, says attackers can run code where",
-      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
-    },
-    {
-      "time": "2026-11-18 18:15:39",
-      "level": "info",
-      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\n\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes two particular kinds of agent.\n\nF5, which makes BIG-IP, disclosed the flaws today and says they",
-      "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html"
-    },
-    {
-      "time": "2026-11-18 17:10:45",
-      "level": "info",
-      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
-      "cve": "CVE-2026-129448",
-      "source": "The Hacker News",
-      "desc": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\n\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in the XML-RPC endpoint that could lead to remote code execution.\n\n\"Deserialization of Untrusted",
-      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
-    },
-    {
-      "time": "2026-11-18 14:11:28",
-      "level": "info",
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report shared with The Hacker News. \"A file hash changes with every recompile, a domain costs a few",
-      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
-    },
-    {
-      "time": "2026-11-18 12:28:30",
-      "level": "info",
-      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say.\n\nThat leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD laptop and a 6-digit BitLocker PIN on an Intel laptop this way.\n\nBoth PINs were set by the",
-      "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
     }
   ]
 }
