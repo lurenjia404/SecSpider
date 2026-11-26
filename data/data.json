@@ -1,6 +1,33 @@
 {
-  "update_ts": 1795679287,
+  "update_ts": 1795716363,
   "items": [
+    {
+      "time": "2026-11-26 15:13:41",
+      "level": "info",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.\n\n\"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published this week. \"When Python imports the file, the loader reads the newest transaction that an",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
+    },
+    {
+      "time": "2026-11-26 10:57:55",
+      "level": "info",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.\n\nAt Push Security, we measure this as breakthrough rate: The share of attacks that get past email security, web gateways, and safe browsing to reach the user.\n\nHow an",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html"
+    },
+    {
+      "time": "2026-11-26 10:57:25",
+      "level": "info",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\n\"While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
+    },
     {
       "time": "2026-11-26 07:02:34",
       "level": "info",
@@ -18,15 +45,6 @@
       "source": "The Hacker News",
       "desc": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.\n\nThe Mitel MiCollab vulnerabilities are listed below -\n\n\n  CVE-2026-133275 (CVSS score: 5.3) - An arbitrary file upload vulnerability in the Audio, Web and",
       "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html"
-    },
-    {
-      "time": "2026-11-26 04:20:22",
-      "level": "info",
-      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\n\"While we took immediate steps to contain the incident, the attacker gained access to some of our backend systems and accessed a",
-      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html"
     },
     {
       "time": "2026-11-26 03:48:52",
@@ -432,24 +450,6 @@
       "source": "The Hacker News",
       "desc": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access.\n\nThere's another shift worth watching. AI is making some attacks easier",
       "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
-    },
-    {
-      "time": "2026-11-19 16:59:56",
-      "level": "info",
-      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-      "cve": "CVE-2026-126714",
-      "source": "The Hacker News",
-      "desc": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.\n\nToday's PHP releases fix the flaw, called phpAfterShell.\n\nThe flaw is tracked as CVE-2026-126714 and rated",
-      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
-    },
-    {
-      "time": "2026-11-19 15:18:07",
-      "level": "info",
-      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-      "cve": "CVE-2026-115560",
-      "source": "The Hacker News",
-      "desc": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\n\nThe release of the patch follows an advance notice in which the project maintainers alerted users to multiple critical vulnerabilities affecting all supported PHP versions under specific",
-      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
     }
   ]
 }
