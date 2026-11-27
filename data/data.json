@@ -1,6 +1,15 @@
 {
-  "update_ts": 1795716363,
+  "update_ts": 1795747100,
   "items": [
+    {
+      "time": "2026-11-26 19:39:57",
+      "level": "info",
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tells you so much.\n\nThen there’s the question of who gets to use what. Stolen logins are opening",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html"
+    },
     {
       "time": "2026-11-26 15:13:41",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "A newly disclosed unpatched zero-day technique called FastUnlock lets someone with physical access to a locked Windows computer start programs without signing in. Whoever uses it gets only a limited account, not administrator control of the machine.\n\nThe method was posted yesterday by a researcher who uses the handles MSNightmare and Nightmare Eclipse, and the endpoint-security firm ThreatLocker",
       "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html"
-    },
-    {
-      "time": "2026-11-19 18:47:58",
-      "level": "info",
-      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get people to hand over access.\n\nThere's another shift worth watching. AI is making some attacks easier",
-      "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
     }
   ]
 }
