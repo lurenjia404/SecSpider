@@ -1,6 +1,15 @@
 {
-  "update_ts": 1795786069,
+  "update_ts": 1795823602,
   "items": [
+    {
+      "time": "2026-11-27 16:36:11",
+      "level": "info",
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements.\n\nThe previously undocumented incursion set, detailed by SOCRadar, has been codenamed WeaveLotus. The activity is assessed to have comprised five intrusions in Thailand",
+      "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
+    },
     {
       "time": "2026-11-27 11:49:34",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.\n\nFixed kernels shipped",
       "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
-    },
-    {
-      "time": "2026-11-20 12:00:00",
-      "level": "info",
-      "title": "The Path to AI Autonomy in the SOC",
-      "cve": "-",
-      "source": "The Hacker News",
-      "desc": "Security leaders are about to hand AI agents a lot more authority. In a recent a16z survey of CISOs at organizations with more than 1,000 employees, 36% said they are comfortable today letting AI agents act autonomously on low-risk security actions. In 12 months from now, 60% expect to be comfortable at that level. Overall, AI SOC was the highest ranking initiative for 2027.\n\nThe pressure",
-      "url": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html"
     }
   ]
 }
