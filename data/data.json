@@ -1,6 +1,15 @@
 {
-  "update_ts": 1795846241,
+  "update_ts": 1795883824,
   "items": [
+    {
+      "time": "2026-11-28 08:08:11",
+      "level": "info",
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "cve": "-",
+      "source": "The Hacker News",
+      "desc": "Cross-platform password manager pCloud Pass has confirmed it was targeted by a cyber attack after users reported seeing unknown devices being connected to their accounts.\n\n\"A cyber attack targeting pCloud Pass occurred, which was promptly contained by the pCloud team,\" the Swiss company said in response to a number of posts on Reddit. \"Unfortunately, a small number of pCloud Pass user email",
+      "url": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html"
+    },
     {
       "time": "2026-11-27 16:36:11",
       "level": "info",
@@ -441,15 +450,6 @@
       "source": "The Hacker News",
       "desc": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale.\n\nDutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan.\n\n\"Bazuka is a full malware framework,",
       "url": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
-    },
-    {
-      "time": "2026-11-20 12:20:00",
-      "level": "info",
-      "title": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
-      "cve": "CVE-2026-99312",
-      "source": "The Hacker News",
-      "desc": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean.\n\nOn a shared server, that memory can include other customers' virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested virtualization enabled.\n\nFixed kernels shipped",
-      "url": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
     }
   ]
 }
